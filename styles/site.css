@@ -5,7 +5,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family:Quicksand, sans-serif;
   background-color: #ffffff;
 }
 
@@ -94,10 +94,10 @@ main h2 {
 
 #navbar1 {
   display: flex;
-  margin-bottom: 30px;
-  padding-top: 5px;
+  margin-bottom: 0px;
+  padding-top: 0px;
   padding-bottom: 15px;
-  background-color: rgba(24, 38, 62, 0.9);
+  background-color: #303030;
 }
 
 #navbar1 picture {
@@ -105,7 +105,7 @@ main h2 {
 }
 
 #navbar1 img {
-  max-width: 30%;
+  max-width: 25%;
   margin-top: 3px;
   margin-bottom: 3px;
   min-width: 80px;
@@ -135,7 +135,7 @@ nav ul li a {
   border-radius: 10px;
   color: #ffffff;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 15px;
   margin: .25em;
   white-space: nowrap;
 }
@@ -155,7 +155,6 @@ main {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 10px;
   justify-content: space-between;
   max-width: 100%;
   height: 100%;
@@ -164,75 +163,44 @@ main {
 }
 
 main h2 {
-  padding-bottom: 15px;
+  padding-bottom: 55px;
+  padding-top: 55px;
   font-size: 35px;
+  color:#862727;
 }
 
-main .flex-container {
+.flex-container .content {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  max-width: 900px;
 }
 
-main .flex-container article {
-  line-height: 1.8;
-  max-width: 650px;
-  text-align: left;
-  margin: 0 10px;
-  margin-right: 36px;
-  font-size: 15px;
-  padding-top: 0px;
+.flex-container .content div {
+  flex: 1;
 }
 
-main .flex-container aside {
-  background-color: #fcf8f0;
-  border: 6px groove rgb(219, 211, 194, .7);
-  max-width: 250px;
-  height: auto;
-  margin: auto;
-  text-align: left;
-  line-height: 1.5;
-  margin-left: 36px;
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-bottom: 20px;
+.flex-container h2 {
+  margin-bottom: 10px; /* Add spacing between headings and paragraphs */
 }
 
-main .flex-container aside p,
-aside ul {
+.flex-container p {
   margin: 0;
+  text-align: left;
+  line-height: 1.6;
 }
 
-main .flex-container aside h2 {
-  padding-top: 6px;
-  padding-bottom: 6px;
-  font-size: 21px;
+.flex-container .left {
+  margin-right: 45px; /* Add spacing between paragraphs */
 }
 
-main .flex-container aside h3 {
-  font-size: 17px;
+.flex-container .right {
+  margin-left: 45px; /* Add spacing between paragraphs */
 }
 
-main .flex-container aside ul li {
-  list-style: none;
-  font-size: 14px;
-}
-
-main .flex-container aside p {
-  list-style: none;
-  font-size: 14px;
-}
 
 main .fullwidth {
   margin-left: 5px;
   margin-right: 5px;
-}
-
-main article h2 {
-  font-size: 35px;
-  padding: 0 0;
-  margin: 0 0;
 }
 
 main .fullwidth img {
@@ -262,6 +230,7 @@ footer {
   padding: 20px 20px;
   margin-top: 36px;
   font-size: 13px;
+  font-family:Quicksand, sans-serif;
 }
 
 .emp-text {
@@ -454,94 +423,49 @@ footer h2 {
   background-color: #808080;
 }
 
-.gallery {
-  margin-top: 3em;
-  width: 100%;
+.hero-image img {
+  width: 99vw;
+  height: 70vh;
+  object-fit: cover;
+  object-position: center center;
+  transition: filter 0.3s ease-in-out;
 }
 
-.next-prev {
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  width: 100%;
-  max-height: 500px;
-  margin-top: 0px;
-}
-
-.next-prev button:hover {
-  background-color: rgba(94, 94, 94, 0.7);
-  cursor: pointer;
-}
-
-.next-prev picture {
-  display: inline-block;
-  max-width: 990px;
-  max-height: 500px;
-  width: 100%;
-  height: auto;
-  background-color: black;
-  justify-content: center;
-}
-
-.next-prev picture img {
-  justify-content: center;
-  width: 100%;
-  height: auto;
-  max-height: 500px;
-  max-width: 990px;
-}
-
-.npimage {
+.hero-container .hero-image {
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  padding-top:35px;
 }
 
-.overlay-buttons {
-  display: flex;
-  flex-direction: row;
+.hero-container .hero-image img {
+  width: 99vw;
+  height: 70vh;
+  object-fit: cover;
+  object-position: center center;
+  transition: filter 0.3s ease-in-out;
+}
+
+.hero-container .hero-image:hover img {
+  filter: brightness(70%);
+}
+
+.hero-container .image-text {
   position: absolute;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  justify-content: space-between;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  padding: 20px; /* Adjust padding as needed */
 }
 
-.overlay-buttons button {
-  background-color: rgba(94, 94, 94, 0.4);
-  width: 10%;
-  border-width: 0px;
+.hero-container .image-text h2 {
+  margin-bottom: 10px;
 }
 
-.bottom-buttons {
-  flex-direction: row;
-  margin-top: .5em;
+.hero-container .image-text p {
+  margin: 0; /* Remove default margin for paragraphs */
 }
 
-.gallery {
-  margin-bottom: 40px;
-}
-
-.bottom-buttons button {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  outline: none;
-  border-radius: 50%;
-  color: rgb(139, 139, 139);
-  margin-left: 20px;
-}
-
-button .active {
-  background-color: #5f5f5f;
-}
-
-.bottom-buttons button:hover {
-  background-color: #5f5f5f;
-  cursor: pointer;
-}
 
 .flex-cards {
   display: flex;
@@ -638,6 +562,142 @@ button .active {
 .hidden {
   display: none !important;
 }
+
+.gallery.fullscreen-image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 99vw;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.gallery.fullscreen-image .next-prev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery.fullscreen-image .npimage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease;
+}
+
+.gallery.fullscreen-image img {
+  display: block;
+  width: 99vw;
+  height: 70vh;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.gallery.fullscreen-image .bottom-buttons {
+  position: absolute;
+  bottom: 40px;
+  left: calc(50% - 50px); /* Adjust the value to horizontally center the container */
+}
+
+.gallery.fullscreen-image .bottom-buttons button {
+  width: 10px; /* Adjust as needed */
+  height: 10px; /* Adjust as needed */
+  border: 1px solid #ffffff; /* White border */
+  border-radius: 50%; /* Make it circular */
+  background-color: transparent; /* Transparent background */
+  cursor: pointer;
+  padding: 0; /* Remove padding */
+  margin: 0 8px; /* Remove margin */
+}
+
+.gallery.fullscreen-image .bottom-buttons button.active {
+  background-color: #ffffff; /* White background when active */
+}
+
+.gallery.fullscreen-image .bottom-buttons button:hover {
+  background-color: #f0f0f0; /* Light gray background on hover */
+}
+
+.gallery.fullscreen-image .overlay-buttons {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.gallery.fullscreen-image .overlay-buttons button {
+  background-color: rgba(241, 241, 241, 0.5); /* Gray circular background */
+  border: none;
+  color: black;
+  font-size: 25px;
+  cursor: pointer;
+  width: 40px; /* Adjust as needed */
+  height: 40px; /* Adjust as needed */
+  border-radius: 50%; /* Make it circular */
+  display: flex; /* Center arrow vertically */
+  justify-content: center; /* Center arrow horizontally */
+  align-items: center; /* Center arrow vertically */
+}
+
+.gallery.fullscreen-image #prev-button {
+  margin-left: 20px; /* Adjust as needed */
+}
+
+.gallery.fullscreen-image #next-button {
+  margin-right: 20px; /* Adjust as needed */
+}
+
+/* Style the arrow */
+.gallery.fullscreen-image .overlay-buttons #prev-button::before {
+  content: "\2039"; /* Unicode for left-pointing arrow */
+}
+
+.gallery.fullscreen-image .overlay-buttons #next-button::before {
+  content: "\203A"; /* Unicode for right-pointing arrow */
+}
+
+.e-board {
+  text-align: center;
+}
+
+.e-board h2 {
+  margin-bottom: 20px;
+}
+
+.flex-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: calc(25% - 20px); /* Four cards per row */
+  margin: 10px;
+  padding: 15px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+  object-fit: cover;
+  border-radius: 10px; /* Rounded corners */
+}
+
+.card .name {
+  font-weight: bold;
+}
+
 
 @media (prefers-reduced-motion: reduce) {
   .icon {

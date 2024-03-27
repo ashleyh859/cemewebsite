@@ -5,7 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Home</title>
-  <link rel="stylesheet" type="text/css" href="styles/site.css">
+  <link rel="stylesheet" href="styles/site.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -20,16 +22,16 @@
             <!-- Source: Client provided content -->
           </li>
           <li>
-            <a href="index.html" aria-label="navigate to home">Home 主页</a>
+            <a href="index.html" aria-label="navigate to home">HOME 主页</a>
           </li>
           <li>
-            <a href="instruments.html" aria-label="navigate to instruments">Instruments 乐器</a>
+            <a href="instruments.html" aria-label="navigate to instruments">INSTRUMENTS 乐器</a>
           </li>
           <li>
-            <a href="ourevents.html" aria-label="navigate to ourevents">Our Events 我们的活动</a>
+            <a href="ourevents.html" aria-label="navigate to ourevents">OUR EVENTS 我们的活动</a>
           </li>
           <li>
-            <a href="joinus.html" aria-label="navigate to joinus">Join Us! 加入我们!</a>
+            <a href="joinus.html" aria-label="navigate to joinus">JOIN US! 加入我们!</a>
           </li>
         </ul>
       </nav>
@@ -68,50 +70,8 @@
   </header>
 
   <main>
-    <div class="flex-container">
-      <article>
-        <h2>Mission Statement 简介</h2>
-        <hr>
-        <p>
-          The Cornell Eastern Music Ensemble (CEME) stands as a vibrant testament to East Asian culture, weaving together the threads of tradition and innovation. As student-run music ensemble, CEME draws inspiration from the classical roots of a traditional Chinese orchestra (國樂團), adorning its performances with the sounds of traditional Chinese instruments. Our musical journey encompases the diverse melodies and rhythms that echo through varied landscapes of East Asian music.
-          <!-- Source: Client provided content -->
-        </p>
-        <p>
-          CEME envisions a campus where the melodies of East Asian music resonate far and wide, creating a harmonious blend of cultural diversity. Through our performances, workshops, and collaborations, we seek to spark a dialogue that transcends musical genres and fosters a deeper understanding of East Asian culture. As we continue to evolve and grow, CEME remains dedicated to the dual pursuit of preserving the cultural heritage embedded in traditional Chinese music and embracing the dynamic evolution of East Asian musical expressions in the modern era. Join us on this melodious odyssey as we celebrate the past, present, and future of East Asian music, uniting hearts and minds through the transformative power of sound.
-          <!-- Source: Client provided content -->
-        </p>
-      </article>
-      <aside>
-        <h2>Upcoming Events 活动</h2>
-        <hr>
-        <h3>Performances 表演</h3>
-        <p>12/3 after 5PM Klarman KG70</p>
-        <ul>
-          <li>
-            Taiwanese American Student Association's Night Market
-          </li>
-          <!-- Source: Client provided content -->
-        </ul>
 
-        <h3>CEME Events 乐团活动</h3>
-        <p>11/19 7PM-9PM Statler Auditorium</p>
-        <ul>
-          <li>
-            CEME Asian Music Night
-          </li>
-          <!-- Source: Client provided content -->
-        </ul>
-        <h3>Audition 面试</h3>
-        <p>2/10 Lincoln Hall</p>
-        <ul>
-          <li>
-            Spring 2024 CEME Audition
-          </li>
-          <!-- Source: Client provided content -->
-        </ul>
-      </aside>
-    </div>
-    <div class="gallery">
+    <div class="gallery fullscreen-image">
       <div class="next-prev">
         <!-- <button id="prev-button">◀</button>
               <button id="next-button">▶</button> -->
@@ -121,20 +81,20 @@
             <!-- Source: Client provided content -->
           </picture>
           <picture id="image2" class="accessible-hidden">
-            <img src="images/home_teampic2.jpg" alt="Image of the team after an ensemble" width="750" height="500">
+            <img src="images/home_teampic2.jpg" alt="Image of the team after an ensemble">
             <!-- Source: Client provided content -->
           </picture>
           <picture id="image3" class="accessible-hidden">
-            <img src="images/home_teampic3.jpg" alt="Image of the team after an ensemble" width="375" height="500">
+            <img src="images/home_teampic3.jpg" alt="Image of the team after an ensemble">
             <!-- Source: Client provided content -->
           </picture>
           <picture id="image4" class="accessible-hidden">
-            <img src="images/home_teampic4.jpg" alt="Image of the team after an ensemble" width="750" height="500">
+            <img src="images/home_teampic4.jpg" alt="Image of the team after an ensemble">
             <!-- Source: Client provided content -->
           </picture>
           <div class="overlay-buttons">
-            <button id="prev-button" aria-label="Previous Picture">◀</button>
-            <button id="next-button" aria-label="Next Picture">▶</button>
+            <button id="prev-button" aria-label="Previous Picture"></button>
+            <button id="next-button" aria-label="Next Picture"></button>
           </div>
         </div>
       </div>
@@ -145,6 +105,39 @@
         <button id="button4" aria-label="Fourth Picture"></button>
       </div>
     </div>
+
+    <div class="flex-container">
+        <div class="content">
+          <div>
+            <h2>History 历史</h2>
+            <p class="left">
+              The Cornell Eastern Music Ensemble (CEME) stands as a vibrant testament to East Asian culture, weaving together the threads of tradition and innovation. As student-run music ensemble, CEME draws inspiration from the classical roots of a traditional Chinese orchestra (國樂團), adorning its performances with the sounds of traditional Chinese instruments. Our musical journey encompases the diverse melodies and rhythms that echo through varied landscapes of East Asian music.
+            </p>
+          </div>
+          <div>
+            <h2>Mission 使命</h2>
+            <p class="right">
+              CEME envisions a campus where the melodies of East Asian music resonate far and wide, creating a harmonious blend of cultural diversity. Through our performances, workshops, and collaborations, we seek to spark a dialogue that transcends musical genres and fosters a deeper understanding of East Asian culture. As we continue to evolve and grow, CEME remains dedicated to the dual pursuit of preserving the cultural heritage embedded in traditional Chinese music and embracing the dynamic evolution of East Asian musical expressions in the modern era.
+            </p>
+          </div>
+        </div>
+    </div>
+
+    <div class="hero-container">
+    <div class="hero-image" >
+      <picture>
+        <img id="originalA" src="images/ourevents_asianmusicnight.jpg" alt="">
+      </picture>
+      <div class="image-text">
+        <h2>JOIN US</h2>
+            <p>
+              Join us on this melodious odyssey as we celebrate the past, present, and future of East Asian music, uniting hearts and minds through the transformative power of sound.
+            </p>
+      </div>
+    </div>
+    </div>
+
+
     <div class="e-board">
       <h2>E-board 主席团</h2>
       <div class="flex-cards">

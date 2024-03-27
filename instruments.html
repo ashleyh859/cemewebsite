@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Instruments</title>
-  <link rel="stylesheet" type="text/css" href="styles/site.css">
+  <link rel="stylesheet" href="styles/site.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -20,16 +21,16 @@
             <!-- Source: Client provided content -->
           </li>
           <li>
-            <a href="index.html" aria-label="navigate to home">Home 主页</a>
+            <a href="index.html" aria-label="navigate to home">HOME 主页</a>
           </li>
           <li>
-            <a href="instruments.html" aria-label="navigate to instruments">Instruments 乐器</a>
+            <a href="instruments.html" aria-label="navigate to instruments">INSTRUMENTS 乐器</a>
           </li>
           <li>
-            <a href="ourevents.html" aria-label="navigate to ourevents">Our Events 我们的活动</a>
+            <a href="ourevents.html" aria-label="navigate to ourevents">OUR EVENTS 我们的活动</a>
           </li>
           <li>
-            <a href="joinus.html" aria-label="navigate to joinus">Join Us! 加入我们!</a>
+            <a href="joinus.html" aria-label="navigate to joinus">JOIN US! 加入我们!</a>
           </li>
         </ul>
       </nav>
@@ -66,6 +67,42 @@
       </div>
     </div>
   </header>
+
+  <main>
+    <div class="gallery fullscreen-image">
+      <div class="next-prev">
+        <!-- <button id="prev-button">◀</button>
+              <button id="next-button">▶</button> -->
+        <div class="npimage">
+          <picture id="image1">
+            <img src="images/home_teampic1.jpg" alt="Image of the team after an ensemble">
+            <!-- Source: Client provided content -->
+          </picture>
+          <picture id="image2" class="accessible-hidden">
+            <img src="images/home_teampic2.jpg" alt="Image of the team after an ensemble">
+            <!-- Source: Client provided content -->
+          </picture>
+          <picture id="image3" class="accessible-hidden">
+            <img src="images/home_teampic3.jpg" alt="Image of the team after an ensemble">
+            <!-- Source: Client provided content -->
+          </picture>
+          <picture id="image4" class="accessible-hidden">
+            <img src="images/home_teampic4.jpg" alt="Image of the team after an ensemble">
+            <!-- Source: Client provided content -->
+          </picture>
+          <div class="overlay-buttons">
+            <button id="prev-button" aria-label="Previous Picture"></button>
+            <button id="next-button" aria-label="Next Picture"></button>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-buttons">
+        <button id="button1" class="active" aria-label="First Picture"></button>
+        <button id="button2" aria-label="Second Picture"></button>
+        <button id="button3" aria-label="Third Picture"></button>
+        <button id="button4" aria-label="Fourth Picture"></button>
+      </div>
+    </div>
 
   <div class="page-content">
     <h2>Instruments 乐器</h2>
@@ -212,6 +249,7 @@
       </div>
     </div>
   </div>
+</main>
   <footer>
     <h2>About Us 关于我们</h2>
     <p><strong>Rehearsal Meeting: Lincoln Hall B21</strong>
