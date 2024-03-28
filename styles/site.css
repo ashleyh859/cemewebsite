@@ -642,11 +642,11 @@ main .image-flex-container {
 }
 
 .instrument-links {
-  margin-bottom: 20px; /* Add margin below the links */
+  margin-bottom: 20px;
 }
 
 .instrument-links h2 {
-  margin-bottom: 10px; /* Add margin below the heading */
+  margin-bottom: 10px;
 }
 
 .instrument-links ul {
@@ -655,7 +655,7 @@ main .image-flex-container {
 }
 
 .instrument-links ul li {
-  margin-bottom: 5px; /* Add margin between each link */
+  margin-bottom: 5px;
 }
 
 .instrument-links ul li a {
@@ -665,11 +665,11 @@ main .image-flex-container {
 }
 
 .instrument-links ul li a:hover {
-  color: #007bff; /* Change color on hover */
+  color: #007bff;
 }
 
 .instrument-section {
-  margin-top: 50px; /* Add spacing between sections */
+  margin-top: 50px;
   display: flex;
   flex-direction: row;
 }
@@ -678,18 +678,29 @@ main .image-flex-container {
   display: flex;
   flex: 1;
   flex-direction: row;
-  width: 1000px; /* Set width for the rectangle */
-  height: 500px;
+  width: 85vw;
+  height: 50vh;
 }
 
 .instrument-text {
   flex: 1;
-  padding: 0 20px; /* Adjust padding as needed */
+  padding: 0 20px;
   background-color: #F2F2F2;
+  width: 85vw;
+  height: 50vh;
 }
 
 .instrument-text h2 {
-  margin-bottom: 10px;
+  margin-top: 0px;
+  font-size:15px;
+  margin-bottom: 0px;
+  padding-bottom:5px;
+}
+
+.instrument-text p {
+  margin-top: 0px;
+  font-size:15px;
+  text-align:left;
 }
 
 .instrument-image {
@@ -700,10 +711,7 @@ main .image-flex-container {
   width: 100%;
   object-fit: cover;
   object-position: center center;
-}
-
-.instrument-text p {
-  margin-bottom: 10px;
+  height: 50vh;
 }
 
 
