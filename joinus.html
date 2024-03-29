@@ -5,12 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Join Us</title>
-  <link rel="stylesheet" type="text/css" href="styles/site.css">
+  <link rel="stylesheet" href="styles/site.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <header>
-  </div>
     <div id="navbar1">
       <nav>
         <ul>
@@ -69,110 +69,97 @@
   </header>
 
   <main>
+    <div class="gallery fullscreen-image">
+      <div class="next-prev">
+        <!-- <button id="prev-button">◀</button>
+              <button id="next-button">▶</button> -->
+        <div class="npimage">
+          <picture id="image1">
+            <img src="images/home_teampic1.jpg" alt="Image of the team after an ensemble">
+            <!-- Source: Client provided content -->
+          </picture>
+          <picture id="image2" class="accessible-hidden">
+            <img src="images/home_teampic2.jpg" alt="Image of the team after an ensemble">
+            <!-- Source: Client provided content -->
+          </picture>
+          <picture id="image3" class="accessible-hidden">
+            <img src="images/home_teampic3.jpg" alt="Image of the team after an ensemble">
+            <!-- Source: Client provided content -->
+          </picture>
+          <picture id="image4" class="accessible-hidden">
+            <img src="images/home_teampic4.jpg" alt="Image of the team after an ensemble">
+            <!-- Source: Client provided content -->
+          </picture>
+          <div class="overlay-buttons">
+            <button id="prev-button" aria-label="Previous Picture"></button>
+            <button id="next-button" aria-label="Next Picture"></button>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-buttons">
+        <button id="button1" class="active" aria-label="First Picture"></button>
+        <button id="button2" aria-label="Second Picture"></button>
+        <button id="button3" aria-label="Third Picture"></button>
+        <button id="button4" aria-label="Fourth Picture"></button>
+      </div>
+    </div>
+
+    <h2>Our Audition Process 我们的面试流程</h2>
 
     <div class="flex-container">
-      <article>
-        <h2>Our Audition Process 我们的面试流程</h2>
-        <hr>
-        <h3>Prepare your repertoire</h3>
-        <p>
-          For all Eastern & Western instruments, prepare the following:
-        </p>
-        <ul>
-          <li>A self-selected piece | 5 min</li>
-          <li>FOR PIANO. select 2 contrasting pieces (both within 15min)</li>
-          <li>Scales (major, minor scales, arpeggios)</li>
-          <li>Sight-reading (with given time for preparation during the audition)</li>
-          <li>A brief self-introduction</li>
-          <!-- Source: Client provided content -->
-        </ul>
-        <p>
-          Apply using the form linked below on our Instagram.
-          <em>Practice, practice, practice!</em>
-          The audition will take place in early February at Lincoln Hall.
-          More information will be sent after you apply.
-          <!-- Source: Client provided content -->
-        </p>
-      </article>
-      <aside>
-        <h2>Upcoming Events 活动</h2>
-        <hr>
-        <h3>Performances 表演</h3>
-        <p>12/3 after 5PM Klarman KG70</p>
-        <ul>
-          <li>
-            Taiwanese American Student Association's Night Market
-          </li>
-          <!-- Source: Client provided content -->
-        </ul>
+        <div class="instrument-content">
+          <div class="instrument-text">
+            <h2>Prepare Your Repertoire</h2>
+            <p>
+              For all Eastern & Western instruments, prepare the following:
+            </p>
+            <ul>
+              <li>A self-selected piece | 5 min</li>
+              <li>FOR PIANO. select 2 contrasting pieces (both within 15min)</li>
+              <li>Scales (major, minor scales, arpeggios)</li>
+              <li>Sight-reading (with given time for preparation during the audition)</li>
+              <li>A brief self-introduction</li>
+              <!-- Source: Client provided content -->
+            </ul>
+            <p>Apply using the form linked below on our Instagram.</p>
+            <p>Practice, practice, practice!</p>
+            <p>The audition will take place in early February at Lincoln Hall.</p>
+            <p>More information will be sent after you apply.</p>
+          </div>
+          <div class="instrument-image">
+            <img src="images/join_audition1.jpg" alt="Pipa Image">
+          </div>
+        </div>
 
-        <h3>CEME Events 乐团活动</h3>
-        <p>11/19 7PM-9PM Statler Auditorium</p>
-        <ul>
-          <li>
-            CEME Asian Music Night
-          </li>
-          <!-- Source: Client provided content -->
-        </ul>
-        <h3>Audition 面试</h3>
-        <p>2/10 Lincoln Hall</p>
-        <ul>
-          <li>
-            Spring 2024 CEME Audition
-          </li>
-          <!-- Source: Client provided content -->
-        </ul>
-      </aside>
     </div>
 
-    <div class="image-flex-container">
-      <div class="fullwidth">
-        <picture>
-          <img id="originalA" src="images/join_audition1.jpg" alt="Image of audition performances">
-          <!-- Source: Client provided content -->
-        </picture>
-        <div id="fullimageA" class="hidden">
-          <img id="imageA" src="images/join_audition1.jpg" alt="">
-          <!-- Source: Client provided content -->
-          <button id="buttonA" aria-label="exit the modal">✕</button>
-        </div>
-      </div>
 
-      <div class="fullwidth">
-        <picture>
-          <img id="originalB" src="images/join_audition2.jpg" alt="Image of audition teams">
-          <!-- Source: Client provided content -->
-        </picture>
-        <div id="fullimageB" class="hidden">
-          <img id="imageB" src="images/join_audition2.jpg" alt="">
-          <!-- Source: Client provided content -->
-          <button id="buttonB" aria-label="exit the modal">✕</button>
-        </div>
-      </div>
 
-      <div class="fullwidth">
-        <picture>
-          <img id="originalC" src="images/join_audition3.jpg" alt="Image of audition performances">
-          <!-- Source: Client provided content -->
-        </picture>
-        <div id="fullimageC" class="hidden">
-          <img id="imageC" src="images/join_audition3.jpg" alt="">
-          <!-- Source: Client provided content -->
-          <button id="buttonC" aria-label="exit the modal">✕</button>
-        </div>
-      </div>
-
-    </div>
 
   </main>
 
   <footer>
-    <h2>About Us 关于我们</h2>
-    <p><strong>Rehearsal Meeting: Lincoln Hall B21</strong>
-    </p>
-    <p><strong>Email: </strong>contactceme1@gmail.com</p>
-    <p class="emp-text"><em>This organization is a registered student organization of Cornell University.</em></p>
-    <!-- Source: Client provided content -->
+    <div class="footer-content">
+      <div class="ceme-info">
+        <h3>Cornell Eastern Music Ensemble</h3>
+        <img src="images/ceme_logo_white.png" alt="CEME Logo" class="logo">
+      </div>
+      <div class="contact-info">
+        <h3>Contact Us</h3>
+        <p>Lincoln Hall B21</p>
+        <p><a href="mailto:contact.ceme1@gmail.com">contact.ceme1@gmail.com</a></p>
+        <h3>FOLLOW US</h3>
+          <div class="social-icons">
+            <a href="https://www.instagram.com/cornell_eastern_music/"><img src="images/instagram_1400829.png" alt="Instagram Icon" class="icon"></a>
+            <a href="#"><img src="images/wechat_732158.png" alt="WeChat Icon" class="icon"></a>
+            <a href="https://space.bilibili.com/1454197345"><img src="images/download.jpg" alt="BilibiliTV Icon" class="icon"></a>
+            <a href="https://www.youtube.com/@cemecornell2009"><img src="images/youtube_1384060.png" alt="YouTube Icon" class="icon"></a>
+          </div>
+      </div>
+    <div class="disclaimer">
+      <p>This organization is a registered student organization of Cornell University.</p>
+    </div>
+  </div>
   </footer>
 
   <script src="scripts/jquery-3.7.1.js"></script>

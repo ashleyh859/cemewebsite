@@ -678,6 +678,7 @@ main .image-flex-container {
   display: flex;
   flex: 1;
   flex-direction: row;
+  padding-bottom: 150px;
   width: 85vw;
   height: 50vh;
 }
@@ -698,6 +699,13 @@ main .image-flex-container {
 }
 
 .instrument-text p {
+  margin-top: 0px;
+  font-size:15px;
+  text-align:left;
+}
+
+
+.instrument-text ul {
   margin-top: 0px;
   font-size:15px;
   text-align:left;
