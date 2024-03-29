@@ -722,6 +722,33 @@ main .image-flex-container {
   height: 50vh;
 }
 
+.join_us {
+  width: 75vw;
+  height: 60vh;
+  background-color: #C7CCCF;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+}
+
+.joinus-text {
+
+  text-align: left;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-left: 70px;
+}
+
+.joinus-text h2 {
+
+}
+
+.joinus-text p {
+
+}
+
+.joinus-text ul {
+
+}
 
 footer {
   background-color: #333333;
@@ -781,6 +808,7 @@ footer {
   color: #C7CCCF;
   font-size: 14px;
 }
+
 
 
 @media (prefers-reduced-motion: reduce) {
