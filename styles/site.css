@@ -434,7 +434,7 @@ main .image-flex-container {
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
-  padding: 20px; /* Adjust padding as needed */
+  padding: 20px;
 }
 
 .hero-container .image-text h2 {
@@ -442,7 +442,7 @@ main .image-flex-container {
 }
 
 .hero-container .image-text p {
-  margin: 0; /* Remove default margin for paragraphs */
+  margin: 0;
 }
 
 .page-content {
@@ -581,21 +581,25 @@ main .image-flex-container {
 }
 
 .gallery.fullscreen-image .overlay-buttons button {
-  background-color: rgba(241, 241, 241, 0.5); /* Gray circular background */
+  background-color: rgba(241, 241, 241, 0.5);
   border: none;
   color: black;
   font-size: 25px;
   cursor: pointer;
-  width: 40px; /* Adjust as needed */
-  height: 40px; /* Adjust as needed */
-  border-radius: 50%; /* Make it circular */
-  display: flex; /* Center arrow vertically */
-  justify-content: center; /* Center arrow horizontally */
-  align-items: center; /* Center arrow vertically */
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery.fullscreen-image .overlay-buttons button:hover {
+  background-color: rgba(191, 191, 191, 0.5);
 }
 
 .gallery.fullscreen-image #prev-button {
-  margin-left: 20px; /* Adjust as needed */
+  margin-left: 20px;
 }
 
 .gallery.fullscreen-image #next-button {
@@ -655,7 +659,7 @@ main .image-flex-container {
 }
 
 .instrument-links ul li {
-  margin-bottom: 5px;
+  margin-bottom: 55px;
 }
 
 .instrument-links ul li a {
@@ -669,7 +673,7 @@ main .image-flex-container {
 }
 
 .instrument-section {
-  margin-top: 50px;
+  margin-top: 30px;
   display: flex;
   flex-direction: row;
 }
@@ -678,7 +682,7 @@ main .image-flex-container {
   display: flex;
   flex: 1;
   flex-direction: row;
-  padding-bottom: 150px;
+  padding-bottom: 50px;
   width: 85vw;
   height: 50vh;
 }
