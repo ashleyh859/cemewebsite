@@ -741,13 +741,39 @@ main .image-flex-container {
   padding-left: 70px;
 }
 
+.events-section{
+  flex-direction: column;
+  height: auto;
+  width: auto;
+  text-align: start;
+  padding-left: 5%;
+}
+
 .events-content {
   display: flex;
-  flex: 1;
+  flex: 0 1 auto;
   flex-direction: row;
   padding-bottom: 50px;
   width: 85vw;
-  height: 10vh;
+  height: 30vh;
+}
+
+.events-text {
+  flex: 1;
+  padding: 0 20px;
+  width: 85vw;
+  height: 30vh;
+}
+
+.events-image{
+  flex-basis: 30%;
+}
+
+.events-image img {
+  width: 35vh;
+  object-fit: cover;
+  object-position: center center;
+  height: 30vh;
 }
 
 footer {
