@@ -741,6 +741,14 @@ main .image-flex-container {
   padding-left: 70px;
 }
 
+.events-content {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  padding-bottom: 50px;
+  width: 85vw;
+  height: 10vh;
+}
 
 footer {
   background-color: #333333;
