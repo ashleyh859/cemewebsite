@@ -434,7 +434,7 @@ main .image-flex-container {
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
-  padding: 20px; /* Adjust padding as needed */
+  padding: 20px;
 }
 
 .hero-container .image-text h2 {
@@ -442,7 +442,7 @@ main .image-flex-container {
 }
 
 .hero-container .image-text p {
-  margin: 0; /* Remove default margin for paragraphs */
+  margin: 0;
 }
 
 .page-content {
@@ -581,21 +581,25 @@ main .image-flex-container {
 }
 
 .gallery.fullscreen-image .overlay-buttons button {
-  background-color: rgba(241, 241, 241, 0.5); /* Gray circular background */
+  background-color: rgba(241, 241, 241, 0.5);
   border: none;
   color: black;
   font-size: 25px;
   cursor: pointer;
-  width: 40px; /* Adjust as needed */
-  height: 40px; /* Adjust as needed */
-  border-radius: 50%; /* Make it circular */
-  display: flex; /* Center arrow vertically */
-  justify-content: center; /* Center arrow horizontally */
-  align-items: center; /* Center arrow vertically */
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery.fullscreen-image .overlay-buttons button:hover {
+  background-color: rgba(191, 191, 191, 0.5);
 }
 
 .gallery.fullscreen-image #prev-button {
-  margin-left: 20px; /* Adjust as needed */
+  margin-left: 20px;
 }
 
 .gallery.fullscreen-image #next-button {
@@ -655,7 +659,7 @@ main .image-flex-container {
 }
 
 .instrument-links ul li {
-  margin-bottom: 5px;
+  margin-bottom: 55px;
 }
 
 .instrument-links ul li a {
@@ -669,7 +673,7 @@ main .image-flex-container {
 }
 
 .instrument-section {
-  margin-top: 50px;
+  margin-top: 30px;
   display: flex;
   flex-direction: row;
 }
@@ -678,7 +682,7 @@ main .image-flex-container {
   display: flex;
   flex: 1;
   flex-direction: row;
-  padding-bottom: 150px;
+  padding-bottom: 50px;
   width: 85vw;
   height: 50vh;
 }
@@ -740,7 +744,6 @@ main .image-flex-container {
   background-color: #DABDAD;
 }
 
-
 footer {
   background-color: #333333;
   padding: 20px 0;
@@ -749,19 +752,10 @@ footer {
 
 .footer-content {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
-  max-width: 1200px;
+  max-width: 75vw;
   margin: 0 auto;
-}
-
-.ceme-info {
-  flex-basis: 33.33%;
-  text-align: center;
-}
-
-.ceme-info h3 {
-  margin-bottom: 10px;
+  padding-top: 40px;
 }
 
 .logo {
@@ -769,37 +763,55 @@ footer {
   height: auto;
 }
 
-.contact-info, .follow-us {
-  flex-basis: 50%;
-  padding: 0 20px; /* Add padding for spacing */
-}
-
-.contact-info h3, .follow-us h3 {
-  margin-bottom: 10px;
-}
-
-.contact-info p, .follow-us p {
-  margin: 5px 0; /* Add margin to separate lines */
-}
-
-.social-icons {
-  display: flex;
-  align-items: center;
-}
-
-.icon {
-  width: 20px;
-  height: auto;
-  margin-right: 10px;
-}
 
 .disclaimer {
-  text-align: center;
-  margin-top: 20px;
+  margin-top: 40px;
   color: #C7CCCF;
   font-size: 14px;
+  margin-bottom: 60px;
 }
 
+.about-us {
+  flex: 1.5;
+}
+
+.contact-info {
+  flex: 2.5;
+}
+
+.about-us h3, .contact-info h3 {
+  margin-top: 0;
+}
+
+.contact-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-info ul li {
+  margin-bottom: 5px;
+  display: inline;
+  margin-right: 50px;
+  margin-bottom:50px;
+}
+
+.contact-info ul li:last-child {
+  margin-right: 0;
+}
+
+.contact-info ul li a {
+  color: white;
+  text-decoration: none;
+
+}
+
+.contact-info ul li a:hover {
+  text-decoration: underline;
+}
+
+footer h3{
+  margin-bottom:35px;
+}
 
 
 @media (prefers-reduced-motion: reduce) {
