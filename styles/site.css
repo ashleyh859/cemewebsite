@@ -743,6 +743,7 @@ main .image-flex-container {
   padding-top: 0px;
   background-color: #DABDAD;
 }
+
 .events-section{
   flex-direction: column;
   height: auto;
