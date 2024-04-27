@@ -173,6 +173,7 @@ main h2 {
   display: flex;
   justify-content: space-between;
   max-width: 900px;
+  margin-bottom: 60px;
 }
 
 .flex-container .content div {
@@ -617,6 +618,7 @@ main .image-flex-container {
 
 .e-board {
   text-align: center;
+  margin-bottom:80px;
 }
 
 .flex-cards {
@@ -645,6 +647,7 @@ main .image-flex-container {
   margin: 5px 0;
 }
 
+
 .instrument-links {
   margin-bottom: 20px;
 }
@@ -670,6 +673,10 @@ main .image-flex-container {
 
 .instrument-links ul li a:hover {
   color: #007bff;
+}
+
+.instruments-main{
+  margin-bottom:70px;
 }
 
 .instrument-section {
