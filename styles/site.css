@@ -173,6 +173,7 @@ main h2 {
   display: flex;
   justify-content: space-between;
   max-width: 900px;
+  margin-bottom: 60px;
 }
 
 .flex-container .content div {
@@ -617,6 +618,7 @@ main .image-flex-container {
 
 .e-board {
   text-align: center;
+  margin-bottom:80px;
 }
 
 .flex-cards {
@@ -645,6 +647,7 @@ main .image-flex-container {
   margin: 5px 0;
 }
 
+
 .instrument-links {
   margin-bottom: 20px;
 }
@@ -670,6 +673,10 @@ main .image-flex-container {
 
 .instrument-links ul li a:hover {
   color: #007bff;
+}
+
+.instruments-main{
+  margin-bottom:70px;
 }
 
 .instrument-section {
@@ -740,6 +747,41 @@ main .image-flex-container {
   letter-spacing: 1px;
   padding-left: 70px;
   margin-top: -40px;
+}
+
+.events-section{
+  flex-direction: column;
+  height: auto;
+  width: auto;
+  text-align: start;
+  padding-left: 5%;
+}
+
+.events-content {
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+  padding-bottom: 50px;
+  width: 85vw;
+  height: 30vh;
+}
+
+.events-text {
+  flex: 1;
+  padding: 0 20px;
+  width: 85vw;
+  height: 30vh;
+}
+
+.events-image{
+  flex-basis: 30%;
+}
+
+.events-image img {
+  width: 35vh;
+  object-fit: cover;
+  object-position: center center;
+  height: 30vh;
 }
 
 footer {

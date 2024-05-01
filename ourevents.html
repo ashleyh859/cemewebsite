@@ -21,16 +21,16 @@
             <!-- Source: Client provided content -->
           </li>
           <li>
-            <a href="index.html" aria-label="navigate to home">Home 主页</a>
+            <a href="index.html" aria-label="navigate to home">HOME 主页</a>
           </li>
           <li>
-            <a href="instruments.html" aria-label="navigate to instruments">Instruments 乐器</a>
+            <a href="instruments.html" aria-label="navigate to instruments">INSTRUMENTS 乐器</a>
           </li>
           <li>
-            <a href="ourevents.html" aria-label="navigate to ourevents">Our Events 我们的活动</a>
+            <a href="ourevents.html" aria-label="navigate to ourevents">OUR EVENTS 我们的活动</a>
           </li>
           <li>
-            <a href="joinus.html" aria-label="navigate to joinus">Join Us! 加入我们!</a>
+            <a href="joinus.html" aria-label="navigate to joinus">JOIN US! 加入我们!</a>
           </li>
         </ul>
       </nav>
@@ -69,28 +69,30 @@
   </header>
 
   <main>
-    <div class="gallery">
+    <div class="gallery fullscreen-image">
       <div class="next-prev">
+        <!-- <button id="prev-button">◀</button>
+              <button id="next-button">▶</button> -->
         <div class="npimage">
           <picture id="image1">
-            <img src="images/ourevents_concert.png" alt="Image of the spring annual concert" width="750" height="500">
+            <img src="images/home_teampic1.jpg" alt="Image of the team after an ensemble">
             <!-- Source: Client provided content -->
           </picture>
           <picture id="image2" class="accessible-hidden">
-            <img src="images/ourevents_workshop.png" alt="Image of the workshop" width="750" height="500">
+            <img src="images/home_teampic2.jpg" alt="Image of the team after an ensemble">
             <!-- Source: Client provided content -->
           </picture>
           <picture id="image3" class="accessible-hidden">
-            <img src="images/ourevents_close.png" alt="Image of close shot of the spring annual concert" width="750" height="500">
+            <img src="images/home_teampic3.jpg" alt="Image of the team after an ensemble">
             <!-- Source: Client provided content -->
           </picture>
           <picture id="image4" class="accessible-hidden">
-            <img src="images/ourevents_asianmusicnight.png" alt="Image of Asian Music Night" width="750" height="500">
+            <img src="images/home_teampic4.jpg" alt="Image of the team after an ensemble">
             <!-- Source: Client provided content -->
           </picture>
           <div class="overlay-buttons">
-            <button id="prev-button" aria-label="Previous Picture">◀</button>
-            <button id="next-button" aria-label="Next Picture">▶</button>
+            <button id="prev-button" aria-label="Previous Picture"></button>
+            <button id="next-button" aria-label="Next Picture"></button>
           </div>
         </div>
       </div>
@@ -101,51 +103,67 @@
         <button id="button4" aria-label="Fourth Picture"></button>
       </div>
     </div>
+
     <div class="flex-container">
       <article>
         <h2>Our Events 我们的活动</h2>
-        <hr>
-        <h3>Fall: Asian Music Night 亚洲音乐之夜</h3>
-        <p>
-          Hosted by <em>CEME</em>, Asian Music Night is a collaboration of <em>Asian music and performance groups</em> on campus. From song, dance, to martial arts, performances showcasing different <em>cultures and traditions</em> across Asia are presented to the Cornell community. East Asian snacks, food, and drinks are provided.
-          <!-- Source: Client provided content -->
-        </p>
-        <h3>Spring: CEME Annual Concert 音乐会</h3>
-        <p>
-          At the end of the academic year, CEME is proud to showcase all our hard work. Our large ensemble, consisting of <em>traditional Chinese and modern Western instruments</em>, perform many <em>traditional Chinese orchestral pieces</em>. In addition, our members show off their talents in <em>solo and small ensemble pieces</em>. Our repertoire includes traditional Chinese music, Asian pop music, film soundtracks, and even East-West fusion.
-          <!-- Source: Client provided content -->
-        </p>
+        <nav class="instrument-links">
+          <ul>
+            <li><a href="#upcoming-events">Upcoming Events</a></li>
+            <li><a href="#past-events">Past Events</a></li>
+          </ul>
+        </nav>
       </article>
-      <aside>
-        <h2>Upcoming Events 活动</h2>
-        <hr>
-        <h3>Performances 表演</h3>
-        <p>12/3 after 5PM Klarman KG70</p>
-        <ul>
-          <li>
-            Taiwanese American Student Association's Night Market
-          </li>
-          <!-- Source: Client provided content -->
-        </ul>
 
-        <h3>CEME Events 乐团活动</h3>
-        <p>11/19 7PM-9PM Statler Auditorium</p>
-        <ul>
-          <li>
-            CEME Asian Music Night
-          </li>
-          <!-- Source: Client provided content -->
-        </ul>
-        <h3>Audition 面试</h3>
-        <p>2/10 Lincoln Hall</p>
-        <ul>
-          <li>
-            Spring 2024 CEME Audition
-          </li>
-          <!-- Source: Client provided content -->
-        </ul>
-      </aside>
+      <div id="upcoming-events" class="flex-container">
+        <h2>Upcoming Events 活动</h2>
+
+        <section class="events-section">
+          <h2 align="left">APR 2024</h2>
+          <div class="events-content">
+            <div class="events-image">
+              <img src="images/ourevents_concert.png" alt="Upcoming Event Image">
+            </div>
+            <div class="events-text">
+              <h3>Spring: CEME Annual Concert</h3>
+              <p>At the end of the academic year, CEME is proud to showcase all our hard work. Our large ensemble, consisting of traditional Chinese and modern Western instruments, perform many traditional Chinese orchestral pieces. In addition, our members show off their talents in solo an dsmall ensemble pieces. Our repertoire includes traditional Chinese music, Asian pop music, film soundtracks, and even East-West fusion.</p>
+              <br>
+              <p>April 14, 2024</p>
+              <p>Willard Straight Hall Memorial Room</p>
+            </div>
+          </div>
+          <div class="events-content">
+            <div class="events-image">
+              <img src="images/ourevents_concert.png" alt="Upcoming Event Image">
+            </div>
+            <div class="events-text">
+              <h3>example</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <br>
+              <p>date</p>
+              <p>location</p>
+            </div>
+          </div>
+          <h2 align="left">TBA</h2>
+          <div class="events-content">
+            <div class="events-image">
+              <img src="images/ourevents_concert.png" alt="Upcoming Event Image">
+            </div>
+            <div class="events-text">
+              <h3>CEME Fall Auditions</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <br>
+              <p>date</p>
+              <p>location</p>
+            </div>
+          </div>
+        </section>
+      </div>
       <!-- Source: Client provided content -->
+
+      <div id="past-events" class="flex-container">
+        <h2>Past Events 活动</h2>
+      </div>
     </div>
   </main>
 
