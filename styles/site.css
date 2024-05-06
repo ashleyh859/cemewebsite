@@ -812,6 +812,13 @@ main .image-flex-container {
   flex: 33.33%;
 }
 
+.events-column img {
+  width: 45vh;
+  object-fit: cover;
+  object-position: center center;
+  height: 35vh;
+}
+
 footer {
   background-color: #333333;
   padding: 20px 0;
