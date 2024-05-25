@@ -818,6 +818,7 @@ main .image-flex-container {
   color: #444;
   cursor: pointer;
   padding: 18px;
+  margin-bottom: 10px;
   width: 100%;
   text-align:center;
   border: none;
