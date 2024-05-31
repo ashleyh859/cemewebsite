@@ -810,25 +810,52 @@ main .image-flex-container {
 }
 
 
-
-
-
 .events-accordion {
   background-color: #F2F2F2;
-  color: #444;
+  color: #303030;
   cursor: pointer;
-  padding: 18px;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
   width: 100%;
-  text-align:center;
-  border: none;
+  text-align: left;
+  border: #303030 solid 2px;
   outline: none;
   transition: 0.4s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px;
 }
 
 .events-active, .events-accordion:hover {
   background-color: #ccc;
 }
+
+.events-accordion::before { /*hidden item for spacing*/
+  content: '\02795';
+  font-size: 20px;
+  color: #303030;
+  visibility: hidden;
+  transition: 0.4s;
+}
+
+.events-accordion:after {
+  content: '\f107';
+  font-family: 'FontAwesome';
+  font-size: 20px;
+  color: #303030;
+  transition: 0.4s;
+}
+
+.events-active:after {
+  content: "\f106";
+}
+
+.events-accordion h3 {
+  font-size: 20px;
+  font-family: Quicksand;
+  margin: 0;
+}
+
 
 .events-accordion-item {
   padding: 0 18px;
@@ -836,7 +863,6 @@ main .image-flex-container {
   max-height: 0;
   overflow: hidden;
 }
-
 
 .events-flex-container {
   display: flex;
