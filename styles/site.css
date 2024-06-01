@@ -193,12 +193,10 @@ main h2 {
 
 .flex-container .left {
   margin-right: 45px;
-  /* Add spacing between paragraphs */
 }
 
 .flex-container .right {
   margin-left: 45px;
-  /* Add spacing between paragraphs */
 }
 
 
@@ -470,7 +468,7 @@ main .image-flex-container {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
+/*
 .accordion-item {
   background-color: #fff;
   margin-bottom: 10px;
@@ -502,7 +500,7 @@ main .image-flex-container {
   padding: 10px;
   line-height: 1.5;
   background-color: #fff;
-}
+} */
 
 .icon {
   font-size: 20px;
@@ -765,14 +763,167 @@ main .image-flex-container {
   margin-top: -40px;
 }
 
+.ourevents-main {
+  margin-bottom: 20px;
+}
+
+.ourevents-section {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.ourevents-content {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  padding-bottom: 50px;
+  width: 75vw;
+  height: 30vh;
+}
+
+.ourevents-text {
+  flex: 2;
+  height: 40vh;
+  padding-left:40px;
+}
+
+.ourevents-text h2 {
+  padding-top: 0px;
+  font-size: 25px;
+  margin-bottom: 0px;
+  padding-bottom: 25px;
+  color:black;
+}
+
+.ourevents-text p {
+  margin-top: 0px;
+  font-size: 15.5px;
+  text-align: left;
+}
+
+
+.ourevents-text ul {
+  margin-top: 0px;
+  font-size: 15px;
+  text-align: left;
+}
+
+.ourevents-image {
+  flex-basis: 50%;
+  flex:1;
+}
+
+.ourevents-image img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+  height: 40vh;
+}
+
+
+.accordion {
+  margin: 0 auto;
+  width: 75vw;
+  margin-bottom:120px;
+  margin-top:0px;
+  padding-top:0px;
+}
+
+.accordion-item {
+  background-color: #ffffff;
+  margin-bottom:1px;
+  border-bottom: solid 1px;
+
+}
+
+.accordion-header:hover {
+  background-color: #dedede;
+}
+
+
+.accordion-header {
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  border: none;
+  padding: 10px;
+  height:10vh;
+  background-color: #ffffff;
+}
+
+.accordion-content {
+  font-size:15px;
+  line-height: 1.2;
+  background-color: #ffffff;
+  margin-bottom:0px;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.accordion-content .ourevents-content {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  padding-bottom: 50px;
+  width: 75vw;
+  height: 40vh;
+  margin-bottom:20px;
+}
+
+.accordion-content .ourevents-content .ourevents-text {
+  margin-top:-20px;
+}
+
+.icon {
+  font-size: 38px;
+  transition: all 0.2s ease;
+}
+
+.accessible-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
 .events-section {
   display: flex;
   flex-direction: column;
   height: auto;
   width: auto;
-  text-align: start;
   padding-left: 5%;
-  margin-top: -5%;
+  margin-top: 0%;
+}
+
+.month h3{
+  padding-top:0px;
+  margin-top:0px;
+  font-size:200px;
+  text-align: left;
 }
 
 .events-content {
@@ -809,34 +960,41 @@ main .image-flex-container {
   height: 35vh;
 }
 
-
 .events-accordion {
-  background-color: #F2F2F2;
-  color: #303030;
+  background-color: #7aa0c6;
+  color: #333;
   cursor: pointer;
-  margin-bottom: 70px;
-  width: 100%;
-  text-align: left;
-  border: #303030 solid 2px;
+  margin-bottom: 20px;
+  /* width: 100vw; Adjusted to auto
+  text-align: center;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
   outline: none;
-  transition: 0.4s;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 18px;
+  justify-content: center;
+  height: 10vh;
+}
+
+
+.events-accordion {
+  font-size:25px;
+  letter-spacing: 2px;
+  text-align: center;
 }
 
 .events-active, .events-accordion:hover {
   background-color: #ccc;
 }
 
-.events-accordion::before { /*hidden item for spacing*/
-  content: '\02795';
+/* .events-accordion::before { /*hidden item for spacing*/
+  /* content: '\02795';
   font-size: 20px;
   color: #303030;
   visibility: hidden;
   transition: 0.4s;
-}
+} */
 
 .events-accordion:after {
   content: '\f107';
@@ -848,12 +1006,6 @@ main .image-flex-container {
 
 .events-active:after {
   content: "\f106";
-}
-
-.events-accordion h3 {
-  font-size: 20px;
-  font-family: Quicksand;
-  margin: 0;
 }
 
 
@@ -875,7 +1027,7 @@ main .image-flex-container {
   display: flex;
   flex: 0 1 auto;
   flex-direction: row;
-  background-color: #ffffff;
+  background-color: #ec3131;
   flex-grow:1;
   padding: 10px;
   margin-bottom: 20px;
@@ -889,8 +1041,6 @@ main .image-flex-container {
   object-fit: cover;
   margin-right: 10px;
 }
-
-
 
 
 footer {
