@@ -335,7 +335,7 @@ main .image-flex-container {
 }
 
 .hero-image img {
-  width: 99vw;
+  width: 100vw;
   height: 70vh;
   object-fit: cover;
   object-position: center center;
@@ -348,7 +348,7 @@ main .image-flex-container {
 }
 
 .hero-container .hero-image img {
-  width: 99vw;
+  width: 100vw;
   height: 70vh;
   object-fit: cover;
   object-position: center center;
@@ -452,7 +452,7 @@ main .image-flex-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 99vw;
+  width: 100vw;
   height: 70vh;
   overflow: hidden;
 }
@@ -472,7 +472,7 @@ main .image-flex-container {
 
 .gallery.fullscreen-image img {
   display: block;
-  width: 99vw;
+  width: 100vw;
   height: 70vh;
   object-fit: cover;
   object-position: center center;
