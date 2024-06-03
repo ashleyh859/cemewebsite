@@ -34,12 +34,6 @@ main h2 {
   text-align: center;
 }
 
-#navbar1 img {
-  max-width: 25%;
-  margin-top: 3px;
-  margin-bottom: 3px;
-  min-width: 80px;
-}
 
 nav ul {
   display: flex;
@@ -48,14 +42,13 @@ nav ul {
   /* margin: 0; */
   justify-content: space-between;
   /* margin-left: 33px; */
-  margin-right: 33px;
   margin-top: 10px;
   margin-bottom: 0px;
+  width:95vw;
 }
 
 nav ul li {
   list-style: none;
-  flex-grow: 1;
 }
 
 nav ul li a {
@@ -72,10 +65,12 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #f8eedc;
+  text-decoration: underline;
 }
 
 nav ul li img {
-  max-width: 33%;
+  width: 25%;
+  max-width: 450px;
   margin-top: 3px;
   margin-bottom: 3px;
 }
