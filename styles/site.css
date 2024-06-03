@@ -676,10 +676,17 @@ main .image-flex-container {
   height: 50vh;
 }
 
+
+.join_us_main {
+  margin-bottom: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .join_us {
-  width: 60vw;
-  height: 51vh;
-  margin-bottom:80px;
+  width: auto;
+  height: auto;
   text-align: left;
   font-size: 22px;
   letter-spacing: 1px;
