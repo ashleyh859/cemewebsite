@@ -585,24 +585,25 @@ main .image-flex-container {
 }
 
 
-.instrument-links {
+nav .instrument-links {
   margin-bottom: 20px;
+  background-color: red;
 }
 
-.instrument-links h2 {
+ .instrument-links h2 {
   margin-bottom: 10px;
 }
 
-.instrument-links ul {
+ .instrument-links ul {
   list-style: none;
   padding: 0;
 }
 
-.instrument-links ul li {
+ .instrument-links ul li {
   margin-bottom: 55px;
 }
 
-.instrument-links ul li a {
+ .instrument-links ul li a {
   text-decoration: none;
   color: #333333;
   font-weight: bold;
@@ -629,6 +630,7 @@ main .image-flex-container {
   padding-bottom: 50px;
   width: 85vw;
   height: 50vh;
+
 }
 
 .instrument-text {
@@ -636,19 +638,19 @@ main .image-flex-container {
   padding: 0 20px;
   background-color: #F2F2F2;
   width: 85vw;
-  height: 50vh;
+  height: auto;
 }
 
 .instrument-text h2 {
   margin-top: 0px;
-  font-size: 15px;
+  font-size: 1.7vw;
   margin-bottom: 0px;
   padding-bottom: 5px;
 }
 
 .instrument-text p {
   margin-top: 0px;
-  font-size: 15px;
+  font-size: 1.2vw;
   text-align: left;
 }
 
