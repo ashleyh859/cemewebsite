@@ -97,7 +97,7 @@ main h2 {
 .flex-container .content {
   display: flex;
   justify-content: space-between;
-  max-width: 900px;
+  width: 70vw;
   margin-bottom: 60px;
 }
 
@@ -475,8 +475,7 @@ main .image-flex-container {
 .gallery.fullscreen-image .bottom-buttons {
   position: absolute;
   bottom: 40px;
-  left: calc(50% - 50px);
-  /* Adjust the value to horizontally center the container */
+  width: auto;
 }
 
 .gallery.fullscreen-image .bottom-buttons button {
