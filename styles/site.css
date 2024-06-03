@@ -156,11 +156,6 @@ main .image-flex-container {
   outline-offset: 2px;
 }
 
-#originalA:hover {
-  opacity: 0.7;
-  cursor: pointer;
-}
-
 #fullimageA {
   position: fixed;
   top: 0;
@@ -352,12 +347,8 @@ main .image-flex-container {
   height: 70vh;
   object-fit: cover;
   object-position: center center;
-  transition: filter 0.3s ease-in-out;
 }
 
-.hero-container .hero-image:hover img {
-  filter: brightness(70%);
-}
 
 .hero-container .image-text {
   position: absolute;
@@ -367,6 +358,14 @@ main .image-flex-container {
   text-align: center;
   color: white;
   padding: 20px;
+}
+
+.hero-container .image-text:hover{
+}
+
+.hero-container .image-text:hover h2{
+  color:#d22d2d;
+  text-decoration: underline;
 }
 
 .hero-container .image-text h2 {
@@ -577,8 +576,8 @@ main .image-flex-container {
 }
 
 .card img {
-  width: 190px;
-  height: 190px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   border-radius: 50%;
 }
