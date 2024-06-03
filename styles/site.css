@@ -108,13 +108,13 @@ main h2 {
 
 .flex-container h2 {
   margin-bottom: 10px;
-  /* Add spacing between headings and paragraphs */
 }
 
 .flex-container p {
   margin: 0;
   text-align: left;
   line-height: 1.6;
+  font-size:1.25vw;
 }
 
 .flex-container .left {
@@ -370,6 +370,8 @@ main .image-flex-container {
 
 .hero-container .image-text p {
   margin: 0;
+  font-size:1.25vw;
+
 }
 
 .page-content {
@@ -579,10 +581,12 @@ main .image-flex-container {
 
 .card h3 {
   margin: 5px 0;
+  font-size: 1.5vw;
 }
 
 .card h4 {
   margin: 5px 0;
+  font-size: 1.25vw;
 }
 
 
