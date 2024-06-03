@@ -975,15 +975,18 @@ main .image-flex-container {
 
 footer {
   background-color: #333333;
-  padding: 20px 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-content {
   display: flex;
   justify-content: space-between;
-  max-width: 75vw;
-  margin: 0 auto;
+  width: 78vw;
   padding-top: 40px;
 }
 
@@ -991,7 +994,6 @@ footer {
   width: 100px;
   height: auto;
 }
-
 
 .disclaimer {
   margin-top: 40px;
@@ -1001,11 +1003,12 @@ footer {
 }
 
 .about-us {
-  flex: 1.5;
+  flex: 1;
+
 }
 
 .contact-info {
-  flex: 2.5;
+  flex: 1;
 }
 
 .about-us h3,
