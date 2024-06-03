@@ -719,7 +719,7 @@ nav .instrument-links {
   padding-left:40px;
 }
 
-.ourevents-text h2 {
+.ourevents-text h2, h3 {
   padding-top: 0px;
   font-size: 1.7vw;
   margin-bottom: 0px;
@@ -765,7 +765,6 @@ nav .instrument-links {
   background-color: #ffffff;
   margin-bottom:1px;
   border-bottom: solid 1px;
-
 }
 
 .accordion-header:hover {
@@ -774,7 +773,7 @@ nav .instrument-links {
 
 
 .accordion-header {
-  font-size: 20px;
+  font-size: 1.7vw;
   text-align: center;
   letter-spacing: 1px;
   font-weight: bold;
@@ -978,7 +977,7 @@ footer {
   background-color: #333333;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: white;
+  color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1015,6 +1014,7 @@ footer {
 .contact-info h3 {
   margin-top: 0;
   font-size: 1.7vw;
+  color:white;
 }
 
 .contact-info ul {
