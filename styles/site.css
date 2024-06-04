@@ -1267,18 +1267,26 @@ main .fullwidth {
     flex-direction: column;
   }
 
+  .instrument-content {
+    height: 80vh;
+  }
+
 .instrument-text h2{
   font-size: 5vw;
 }
 
 .instrument-text p{
   font-size: 3vw;
+
 }
 .instrument-links ul li a{
   margin-bottom: 20px;
   font-size: 4vw;
 }
 
+.instrument-image img {
+  height: 80vh;
+}
 .ourevents-section {
   margin-top: 20px;
   display: block;
