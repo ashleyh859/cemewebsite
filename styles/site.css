@@ -1268,15 +1268,15 @@ main .fullwidth {
   }
 
 .instrument-text h2{
-  font-size: 7vw;
+  font-size: 5vw;
 }
 
 .instrument-text p{
-  font-size: 4vw;
+  font-size: 3vw;
 }
-.instrument-links ul li {
+.instrument-links ul li a{
   margin-bottom: 20px;
-  font-size: 7vw;
+  font-size: 4vw;
 }
 
 .ourevents-section {
