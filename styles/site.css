@@ -371,7 +371,6 @@ main .image-flex-container {
 .hero-container .image-text p {
   margin: 0;
   font-size:1.25vw;
-
 }
 
 .page-content {
@@ -1142,6 +1141,8 @@ footer h3 {
   right: 0;
   margin-top: 80px;
   z-index: 30;
+  height: 50vh;
+  width: 50vw;
 }
 
 #links ul {
@@ -1172,8 +1173,11 @@ footer h3 {
   background-color: #f8eedc;
 }
 
+main h2{
+  font-size: 5vw;
+}
 
-  main .fullwidth {
+main .fullwidth {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1195,12 +1199,19 @@ footer h3 {
     text-align: center;
   }
 
+
+  .content h2{
+    font-size: 5vw;
+  }
+
   .flex-container .left {
     margin-right: 0px;
+    font-size: 3vw;
   }
 
   .flex-container .right {
     margin-left: 0px;
+    font-size: 3vw;
   }
 
 
@@ -1215,21 +1226,26 @@ footer h3 {
 
 .hero-container .image-text h2 {
   margin-bottom: 0px;
+  font-size: 5vw;;
 }
 
 .hero-container .image-text p {
   margin: 0;
+  font-size:3vw;
 }
 
-  main .flex-container article h2 {
-    text-align: center;
-    font-size: 24px;
-  }
+.e-board h2{
+  font-size: 5vw;
+}
 
-  main .flex-container article h3 {
-    text-align: center;
-    font-size: 15px;
-  }
+.e-board h3{
+  font-size: 4vw;
+}
+
+.e-board h4{
+  font-size: 3vw;
+}
+
 
   main .image-flex-container {
     flex-direction: column;
@@ -1245,15 +1261,22 @@ footer h3 {
     text-align: center;
   }
 
+
   .instrument-section {
     display: block;
     flex-direction: column;
   }
 
+.instrument-text h2{
+  font-size: 4vw;
+}
 
-
+.instrument-text p{
+  font-size: 2vw;
+}
 .instrument-links ul li {
   margin-bottom: 20px;
+  font-size: 3vw;
 }
 
 .ourevents-section {
@@ -1269,13 +1292,18 @@ footer h3 {
 }
 
 
-  .joinus-text {
+.joinus-text {
     text-align: left;
-    font-size: 18px;
+    font-size: 3vw;
     letter-spacing: 1px;
     padding-left: 0px;
     margin-top: -40px;
     align-items: center;
+    background-color: red;
+  }
+
+  .join_us {
+    font-size: 3vw;
   }
 
   #originalA:hover {
@@ -1357,6 +1385,15 @@ footer h3 {
 .contact-info ul li {
   display: flex;
   margin-bottom: 15px;
-
+  font-size: 3vw;
+  height: auto;
+  width: auto;
+  text-align: center;
 }
+
+.about-us h3,
+.contact-info h3 {
+  font-size: 5vw;
+}
+
 }
