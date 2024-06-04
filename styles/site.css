@@ -1174,7 +1174,7 @@ footer h3 {
 }
 
 main h2{
-  font-size: 8vw;
+  font-size: 7vw;
 }
 
 main .fullwidth {
@@ -1292,18 +1292,8 @@ main .fullwidth {
 }
 
 
-.joinus-text {
-    text-align: left;
-    font-size: 3vw;
-    letter-spacing: 1px;
-    padding-left: 0px;
-    margin-top: -40px;
-    align-items: center;
-    background-color: red;
-  }
-
   .join_us {
-    font-size: 5vw;
+    font-size: 4vw;
   }
 
   #originalA:hover {
