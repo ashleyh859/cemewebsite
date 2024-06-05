@@ -1196,7 +1196,7 @@ main .fullwidth {
 
   .gallery.fullscreen-image {
     width: 100vw;
-    height: 40vh;
+    height: 50vh;
     overflow: hidden;
   }
 
