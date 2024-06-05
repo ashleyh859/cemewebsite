@@ -1104,6 +1104,7 @@ footer h3 {
 
 
 #navbar2 {
+  position: fixed;
   display: flex;
   flex-direction: row;
   z-index: 5000;
@@ -1111,7 +1112,6 @@ footer h3 {
   justify-content: space-between;
   width: 100%;
   background-color: #303030;
-  margin-bottom: 0px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -1132,6 +1132,9 @@ footer h3 {
   margin-left: 15px;
 }
 
+main{
+  padding-top:16.3vh;
+}
 #hamburger-menu {
   display: flex;
   flex-direction: column;
