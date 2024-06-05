@@ -1143,8 +1143,6 @@ footer h3 {
   right: 0;
   margin-top: 80px;
   z-index: 30;
-  height: 50vh;
-  width: 50vw;
 }
 
 #links ul {
@@ -1159,6 +1157,10 @@ footer h3 {
   margin-top: 18px;
   margin-right: 0;
   text-align: right;
+}
+
+#links ul li a{
+  font-size:5vw;
 }
 
 #hamburger {
