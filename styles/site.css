@@ -572,14 +572,15 @@ main .image-flex-container {
 }
 
 .card img {
-  width: 150px;
-  height: 150px;
+  width: 23vh;
+  height: 23vh;
   object-fit: cover;
   border-radius: 50%;
 }
 
 .card h3 {
   margin: 5px 0;
+  margin-bottom: 0px;
   font-size: 1.5vw;
 }
 
@@ -1133,8 +1134,9 @@ footer h3 {
 }
 
 main{
-  padding-top:10vh;
+  padding-top:9vh;
 }
+
 #hamburger-menu {
   display: flex;
   flex-direction: column;
@@ -1246,16 +1248,20 @@ main .fullwidth {
 }
 
 .e-board h3{
-  font-size: 6vw;
+  font-size: 5vw;
 }
 
 .e-board h4{
-  font-size: 4vw;
+  font-size: 3.5vw;
 }
 
+.card img {
+  width: 15vh;
+  height: 15vh;
+}
 
   main .image-flex-container {
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
   }
 
