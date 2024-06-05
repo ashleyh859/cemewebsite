@@ -795,6 +795,8 @@ nav .instrument-links {
   margin-bottom:0px;
   padding-left:10px;
   padding-right:10px;
+  height: auto;
+  width: auto;
 }
 
 .accordion-content .ourevents-content {
@@ -1326,15 +1328,29 @@ main .fullwidth {
 .ourevents-section{
   padding-bottom:10vw;
 }
+
 .accordion-content .ourevents-content {
   display: block;
   flex-direction: column;
   padding-bottom: 20vh;
-  width: 75vw;
+  width: 70vw;
   height: 40vh;
   margin-bottom:20px;
+  height:auto;
+
+
 }
 
+.accordion-content .ourevents-content .ourevents-image img{
+  text-align: center;
+  margin:0px;
+  padding: 0px;
+}
+
+.accordion-content .ourevents-content .ourevents-text {
+  text-align: center;
+  padding: 0px;
+}
 
 .join_us {
     font-size: 4vw;
