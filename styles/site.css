@@ -1325,12 +1325,11 @@ main .fullwidth {
 
 .ourevents-section{
   padding-bottom:10vw;
-  background-color: red;
 }
 .accordion-content .ourevents-content {
   display: block;
   flex-direction: column;
-  padding-bottom: 50px;
+  padding-bottom: 20vh;
   width: 75vw;
   height: 40vh;
   margin-bottom:20px;
