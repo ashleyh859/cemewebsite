@@ -1332,13 +1332,11 @@ main .fullwidth {
 .accordion-content .ourevents-content {
   display: block;
   flex-direction: column;
-  padding-bottom: 20vh;
+  padding-bottom: 0vh;
   width: 70vw;
   height: 40vh;
   margin-bottom:20px;
   height:auto;
-
-
 }
 
 .accordion-content .ourevents-content .ourevents-image img{
