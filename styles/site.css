@@ -635,7 +635,6 @@ nav .instrument-links {
   padding-bottom: 50px;
   width: 85vw;
   height: 50vh;
-
 }
 
 .instrument-text {
@@ -1286,9 +1285,14 @@ main .fullwidth {
     flex-direction: column;
   }
 
-  .instrument-content {
-    height: 80vh;
-  }
+
+.instrument-content {
+  display: block;
+  flex-direction: column;
+  padding-bottom: 50px;
+  width: 85vw;
+  height: 50vh;
+}
 
 .instrument-text h2{
   font-size: 5vw;
@@ -1296,6 +1300,39 @@ main .fullwidth {
 
 .instrument-text p{
   font-size: 3.5vw;
+}
+
+.instrument-image {
+  flex-basis: auto;
+  height: auto;
+}
+
+.instrument-content {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  gap: 20px;
+  padding-bottom: 0;
+  height: auto;
+}
+
+.instrument-text{
+  padding: 0px;
+
+}
+.instrument-image, .instrument-text {
+  width: 100%;
+}
+
+.instrument-content:nth-child(even) .instrument-text {
+  order: 2;
+}
+
+.instrument-content:nth-child(odd) .instrument-text {
+  order: 1;
+}
+.instrument-links{
+  margin-bottom:5vw;
 }
 
 .instrument-links ul li {
@@ -1307,7 +1344,7 @@ main .fullwidth {
 }
 
 .instrument-image img {
-  height: 80vh;
+  height: 40vh;
 }
 
 .ourevents-main{
