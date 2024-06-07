@@ -1296,6 +1296,7 @@ main .fullwidth {
 
 .instrument-text h2{
   font-size: 5vw;
+  margin-top: -5vw;
 }
 
 .instrument-text p{
@@ -1311,14 +1312,15 @@ main .fullwidth {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
-  gap: 20px;
   padding-bottom: 0;
   height: auto;
 }
 
 .instrument-text{
   padding: 0px;
-
+  align-items: center; 
+  justify-content: center;
+  width: auto;
 }
 .instrument-image, .instrument-text {
   width: 100%;
@@ -1344,7 +1346,7 @@ main .fullwidth {
 }
 
 .instrument-image img {
-  height: 40vh;
+  height: 30vh;
 }
 
 .ourevents-main{
