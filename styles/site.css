@@ -1298,8 +1298,11 @@ main .fullwidth {
   font-size: 3.5vw;
 }
 
+.instrument-links ul li {
+  margin-bottom:3vw;
+}
+
 .instrument-links ul li a{
-  margin-bottom: 20px;
   font-size: 4vw;
 }
 
