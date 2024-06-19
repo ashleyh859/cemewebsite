@@ -372,6 +372,10 @@ main .image-flex-container {
   font-size:1.25vw;
 }
 
+.hero-container{
+  margin-bottom: 20vh;
+}
+
 .page-content {
   max-width: 1000px;
   padding-left: 17px;
@@ -1227,7 +1231,6 @@ main .fullwidth {
     font-size: 4vw;
   }
 
-
 .hero-container .image-text {
   position: absolute;
   top: 45%;
@@ -1245,6 +1248,12 @@ main .fullwidth {
 .hero-container .image-text p {
   margin: 0;
   font-size:4vw;
+}
+
+
+.hero-container .hero-image{
+  margin-bottom: 80px;
+  background-color: red;
 }
 
 .e-board h2{
