@@ -741,6 +741,10 @@ nav .instrument-links {
   color:black;
 }
 
+.ourevents-text hr {
+  color: #808080;
+}
+
 .ourevents-text p {
   margin-top: 0px;
   font-size: 1.2vw;
