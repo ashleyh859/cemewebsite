@@ -993,6 +993,118 @@ nav .instrument-links {
 }
 
 
+.ourevents.fullscreen-image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  flex-basis: 50%;
+  flex:1;
+}
+
+.ourevents.fullscreen-image .next-prev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ourevents.fullscreen-image .npimage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease;
+}
+
+.ourevents.fullscreen-image img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+  height: 40vh;
+}
+
+.ourevents.fullscreen-image .bottom-buttons {
+  position: absolute;
+  bottom: 30px;
+  width: auto;
+}
+
+.ourevents.fullscreen-image .bottom-buttons button {
+  width: 10px;
+  /* Adjust as needed */
+  height: 10px;
+  /* Adjust as needed */
+  border: 1px solid #ffffff;
+  /* White border */
+  border-radius: 50%;
+  /* Make it circular */
+  background-color: transparent;
+  /* Transparent background */
+  cursor: pointer;
+  padding: 0;
+  /* Remove padding */
+  margin: 0 8px;
+  /* Remove margin */
+}
+
+.ourevents.fullscreen-image .bottom-buttons button.active {
+  background-color: #ffffff;
+  /* White background when active */
+}
+
+.ourevents.fullscreen-image .bottom-buttons button:hover {
+  background-color: #f0f0f0;
+  /* Light gray background on hover */
+}
+
+.ourevents.fullscreen-image .overlay-buttons {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.ourevents.fullscreen-image .overlay-buttons button {
+  background-color: rgba(241, 241, 241, 0.5);
+  border: none;
+  color: black;
+  font-size: 25px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ourevents.fullscreen-image .overlay-buttons button:hover {
+  background-color: rgba(191, 191, 191, 0.5);
+}
+
+.ourevents.fullscreen-image #prev-button {
+  margin-left: 20px;
+}
+
+.ourevents.fullscreen-image #next-button {
+  margin-right: 20px;
+  /* Adjust as needed */
+}
+
+/* Style the arrow */
+.ourevents.fullscreen-image .overlay-buttons #prev-button::before {
+  content: "\2039";
+  /* Unicode for left-pointing arrow */
+}
+
+.ourevents.fullscreen-image .overlay-buttons #next-button::before {
+  content: "\203A";
+  /* Unicode for right-pointing arrow */
+}
+
+
 footer {
   background-color: #333333;
   padding-top: 20px;
