@@ -848,14 +848,6 @@ nav .instrument-links {
 
 
 
-
-
-
-
-
-
-
-
 /*
 
 
@@ -927,7 +919,6 @@ nav .instrument-links {
   height: 10vh;
 }
 
-
 .events-accordion {
   font-size:25px;
   letter-spacing: 2px;
@@ -993,7 +984,7 @@ nav .instrument-links {
 }
 
 
-.ourevents.fullscreen-image {
+.events-gallery.ourevents-image {
   position: relative;
   display: flex;
   justify-content: center;
@@ -1003,33 +994,33 @@ nav .instrument-links {
   flex:1;
 }
 
-.ourevents.fullscreen-image .next-prev {
+.events-gallery.ourevents-image .next-prev {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.ourevents.fullscreen-image .npimage {
+.events-gallery.ourevents-image .npimage {
   position: relative;
   width: 100%;
   height: 100%;
   transition: transform 0.5s ease;
 }
 
-.ourevents.fullscreen-image img {
+.events-gallery.ourevents-image img {
   width: 100%;
   object-fit: cover;
   object-position: center center;
   height: 40vh;
 }
 
-.ourevents.fullscreen-image .bottom-buttons {
+.events-gallery.ourevents-image .bottom-buttons {
   position: absolute;
   bottom: 30px;
   width: auto;
 }
 
-.ourevents.fullscreen-image .bottom-buttons button {
+.events-gallery.ourevents-image .bottom-buttons button {
   width: 10px;
   /* Adjust as needed */
   height: 10px;
@@ -1047,17 +1038,17 @@ nav .instrument-links {
   /* Remove margin */
 }
 
-.ourevents.fullscreen-image .bottom-buttons button.active {
+.events-gallery.ourevents-image .bottom-buttons button.active {
   background-color: #ffffff;
   /* White background when active */
 }
 
-.ourevents.fullscreen-image .bottom-buttons button:hover {
+.events-gallery.ourevents-image .bottom-buttons button:hover {
   background-color: #f0f0f0;
   /* Light gray background on hover */
 }
 
-.ourevents.fullscreen-image .overlay-buttons {
+.events-gallery.ourevents-image .overlay-buttons {
   position: absolute;
   top: 50%;
   width: 100%;
@@ -1066,7 +1057,7 @@ nav .instrument-links {
   transform: translateY(-50%);
 }
 
-.ourevents.fullscreen-image .overlay-buttons button {
+.events-gallery.ourevents-image .overlay-buttons button {
   background-color: rgba(241, 241, 241, 0.5);
   border: none;
   color: black;
@@ -1080,26 +1071,26 @@ nav .instrument-links {
   align-items: center;
 }
 
-.ourevents.fullscreen-image .overlay-buttons button:hover {
+.events-gallery.ourevents-image .overlay-buttons button:hover {
   background-color: rgba(191, 191, 191, 0.5);
 }
 
-.ourevents.fullscreen-image #prev-button {
+.events-gallery.ourevents-image #prev-button {
   margin-left: 20px;
 }
 
-.ourevents.fullscreen-image #next-button {
+.events-gallery.ourevents-image #next-button {
   margin-right: 20px;
   /* Adjust as needed */
 }
 
 /* Style the arrow */
-.ourevents.fullscreen-image .overlay-buttons #prev-button::before {
+.events-gallery.ourevents-image .overlay-buttons #prev-button::before {
   content: "\2039";
   /* Unicode for left-pointing arrow */
 }
 
-.ourevents.fullscreen-image .overlay-buttons #next-button::before {
+.events-gallery.ourevents-image .overlay-buttons #next-button::before {
   content: "\203A";
   /* Unicode for right-pointing arrow */
 }
