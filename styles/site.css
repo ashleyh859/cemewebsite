@@ -722,7 +722,7 @@ nav .instrument-links {
 }
 
 .ourevents-main {
-  margin-bottom: 20px;
+  margin-bottom: 10vh;
 }
 
 .ourevents-section {
@@ -788,10 +788,16 @@ ourevents-previews {
 }
 
 .ourevents-previews iframe{
-  margin: 2%;
+  margin: 20px;
   margin-top: -2%;
 }
 
+@media only screen and (max-width: 768px) {
+  .ourevents-previews iframe {
+    width: 45%;
+    margin-inline: 2%;
+  }
+}
 
 .accordion {
   margin: 0 auto;
