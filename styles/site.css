@@ -728,7 +728,7 @@ nav .instrument-links {
 .ourevents-section {
   margin-top: 20px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .ourevents-content {
@@ -781,6 +781,15 @@ nav .instrument-links {
   object-fit: cover;
   object-position: center center;
   height: 40vh;
+}
+
+ourevents-previews {
+  flex: auto;
+}
+
+.ourevents-previews iframe{
+  margin: 20px;
+  margin-top: -20px;
 }
 
 
