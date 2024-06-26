@@ -1392,25 +1392,67 @@ main .fullwidth {
 
 .hero-container .hero-image{
   margin-bottom: 80px;
-  background-color: red;
+}
+
+.card {
+  text-align: center;
+  width: auto;
+  height: auto;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6vh;
+}
+
+.card picture{
+  width:55vw;
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
 }
 
 .e-board h2{
   font-size: 7vw;
+  width:55vw;
+  justify-content: center;
+  margin: auto;
 }
 
 .e-board h3{
   font-size: 4vw;
+  width:55vw;
+  justify-content: center;
+  margin: auto;
+  margin-top: 3vh;
+  margin-bottom: 0vh;
+  padding-bottom: 1vh;
 }
 
 .e-board h4{
   font-size: 3.5vw;
+  width:55vw;
+  justify-content: center;
+  margin: auto;
+  margin-top: 0vh;
+  margin-bottom: 1vh;
+  padding-bottom: 0vh;
 }
 
-.card img {
-  width: 15vh;
-  height: 15vh;
+.e-board h5{
+  font-size: 3vw;
+  width:55vw;
+  justify-content: center;
+  margin: auto;
+  margin-top: 1vh;
+  margin-bottom: 0vh;
+  padding-bottom: 0vh;
 }
+
+.flex-cards {
+  display: block;
+  flex-direction: column;
+}
+
 
   main .image-flex-container {
     flex-direction: row;
