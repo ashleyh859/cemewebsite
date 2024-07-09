@@ -572,13 +572,13 @@ main .image-flex-container {
 }
 
 .card {
-  margin: 2.3vw;
+  margin: 0.5vw;
   text-align: center;
 }
 
 .card picture {
-  width: 20vw;
-  height: 50vh;
+  width: 16vw;
+  height: 40vh;
   display: block;
   margin: 0 auto;
 }
