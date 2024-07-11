@@ -800,6 +800,10 @@ ourevents-previews {
   padding-top:0px;
 }
 
+.accordion-title {
+  color:#303030;
+}
+
 .accordion-item {
   background-color: #ffffff;
   margin-bottom:1px;
