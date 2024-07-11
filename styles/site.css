@@ -742,7 +742,7 @@ nav .instrument-links {
 
 .ourevents-text {
   flex: 2;
-  height: 20vh;
+  height: 25vh;
   padding-left:40px;
 }
 
@@ -780,11 +780,12 @@ nav .instrument-links {
   width: 100%;
   object-fit: cover;
   object-position: center center;
-  height: 20vh;
+  height: 25vh;
 }
 
 ourevents-previews {
   flex: auto;
+  justify-content: space-evenly;
 }
 
 .ourevents-previews iframe{
@@ -1031,7 +1032,7 @@ ourevents-previews {
   width: 100%;
   object-fit: cover;
   object-position: center center;
-  height: 40vh;
+  height: 25vh;
 }
 
 .events-gallery.ourevents-image .bottom-buttons {
