@@ -742,7 +742,7 @@ nav .instrument-links {
 
 .ourevents-text {
   flex: 2;
-  height: 40vh;
+  height: 20vh;
   padding-left:40px;
 }
 
@@ -799,11 +799,6 @@ ourevents-previews {
   margin-top:0px;
   padding-top:0px;
 }
-
-.accordion-title p, h1, h2, h3 {
-  color: #303030;
-}
-  
 
 .accordion-item {
   background-color: #ffffff;
