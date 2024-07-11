@@ -780,7 +780,7 @@ nav .instrument-links {
   width: 100%;
   object-fit: cover;
   object-position: center center;
-  height: 40vh;
+  height: 20vh;
 }
 
 ourevents-previews {
@@ -798,8 +798,12 @@ ourevents-previews {
   margin-bottom:120px;
   margin-top:0px;
   padding-top:0px;
+}
+
+.accordion-title p, h1, h2, h3 {
   color: #303030;
 }
+  
 
 .accordion-item {
   background-color: #ffffff;
