@@ -804,7 +804,7 @@ nav .instrument-links {
   flex: 25%;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
   .ourevents-previews iframe {
   flex:100%;
   }
