@@ -794,13 +794,15 @@ nav .instrument-links {
 .ourevents-previews {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  flex-wrap:wrap;
 }
 
 .ourevents-previews iframe{
   margin: 20px;
   margin-top: -2%;
   min-width: 0;
+  width:100%;
+  max-width:100%;
 }
 
 .accordion {
