@@ -785,11 +785,12 @@ nav .instrument-links {
 
 .ourevents-previews {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
 
 .ourevents-previews iframe{
-  margin: 20px;
+  /*margin: 20px;*/
   margin-top: -2%;
 }
 
