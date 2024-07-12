@@ -794,14 +794,13 @@ nav .instrument-links {
 .ourevents-previews {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .ourevents-previews iframe{
   margin: 20px;
   margin-left:0;
   margin-top: -2%;
-  flex: 25%;
+  flex: 30%;
 }
 
 @media (max-width: 500px) {
