@@ -783,7 +783,7 @@ nav .instrument-links {
   height: 25vh;
 }
 
-ourevents-previews {
+.ourevents-previews {
   display: flex;
   justify-content: space-between;
 }
