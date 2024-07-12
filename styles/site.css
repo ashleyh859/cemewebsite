@@ -771,6 +771,14 @@ nav .instrument-links {
   text-align: left;
 }
 
+.ourevents-text a:link{
+  color: #303030;
+}
+
+.ourevents-text a:visited{
+  color: #707070;
+}
+
 .ourevents-image {
   flex-basis: 60%;
   flex:1;
