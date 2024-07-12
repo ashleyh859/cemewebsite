@@ -792,11 +792,12 @@ nav .instrument-links {
 }
 
 .ourevents-previews {
-  flex: auto;
+  display: flex;
 }
 
 .ourevents-previews iframe{
   margin: 20px;
+  margin-left:0;
   margin-top: -2%;
 }
 
