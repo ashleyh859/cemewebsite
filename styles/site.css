@@ -794,11 +794,10 @@ nav .instrument-links {
 .ourevents-previews {
   flex: auto;
   justify-content: space-between;
-  min-width:0;
 }
 
 .ourevents-previews iframe{
-  /*margin: 20px;*/
+  margin-top: 20px;
   margin-top: -2%;
 }
 
