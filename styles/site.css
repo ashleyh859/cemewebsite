@@ -792,8 +792,7 @@ nav .instrument-links {
 }
 
 .ourevents-previews {
-  display:flex;
-  justify-content: space-between;
+  flex: auto;
 }
 
 .ourevents-previews iframe{
