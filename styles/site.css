@@ -861,6 +861,7 @@ ourevents-previews {
 .icon {
   font-size: 38px;
   transition: all 0.2s ease;
+  color: #303030;
 }
 
 .accessible-hidden {
