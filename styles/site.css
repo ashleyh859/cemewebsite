@@ -792,7 +792,7 @@ nav .instrument-links {
 }
 
 .ourevents-previews {
-  display: flex;
+  display: inline-flex;
   justify-content: space-between;
 }
 
@@ -801,8 +801,7 @@ nav .instrument-links {
   margin-left:0;
   margin-top: -2%;
   flex: 30%;
-  max-width: 100%;
-  max-height:100%;
+  max-width: fit-content;
 }
 
 /*
