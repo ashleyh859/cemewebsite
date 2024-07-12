@@ -785,6 +785,7 @@ nav .instrument-links {
 
 .ourevents-previews {
   flex: auto;
+  flew-wrap: wrap;
   justify-content: space-between;
 }
 
