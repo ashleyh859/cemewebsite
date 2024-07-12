@@ -784,8 +784,7 @@ nav .instrument-links {
 }
 
 .ourevents-previews {
-  display: flex;
-  flex-direction: row;
+  flex: auto;
   justify-content: space-between;
 }
 
