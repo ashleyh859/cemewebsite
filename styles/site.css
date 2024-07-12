@@ -799,6 +799,7 @@ nav .instrument-links {
   margin: 20px;
   margin-left:0;
   margin-top: -2%;
+  flex: 30%;
 }
 
 .accordion {
