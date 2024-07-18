@@ -742,7 +742,7 @@ nav .instrument-links {
 
 .ourevents-text {
   flex: 2;
-  height: 35vh;
+  height: 30vh;
   padding-left:40px;
 }
 
@@ -788,7 +788,20 @@ nav .instrument-links {
   width: 100%;
   object-fit: cover;
   object-position: center center;
-  height: 35vh;
+  height: 30vh;
+}
+
+@media only screen and (max-width: 768px) {
+  .ourevents-previews {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .ourevents-previews iframe{
+    width: 40%;
+  }
 }
 
 .ourevents-previews {
@@ -803,13 +816,6 @@ nav .instrument-links {
   flex: 30%;
   max-width: fit-content;
 }
-
-/*
-@media (max-width: 500px) {
-  .ourevents-previews iframe {
-  flex:100%;
-  }
-}*/
 
 .accordion {
   margin: 0 auto;
@@ -1055,7 +1061,7 @@ nav .instrument-links {
   width: 100%;
   object-fit: cover;
   object-position: center center;
-  height: 25vh;
+  height: 30vh;
 }
 
 .events-gallery.ourevents-image .bottom-buttons {
