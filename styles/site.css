@@ -804,6 +804,12 @@ nav .instrument-links {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .show-on-desktop {
+    display: none;
+  }
+}
+
 .ourevents-previews {
   display: inline-flex;
   justify-content: space-between;
