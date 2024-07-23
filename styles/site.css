@@ -630,6 +630,7 @@ nav .instrument-links {
  .instrument-links ul {
   list-style: none;
   padding: 0;
+  width: 75vw;
 }
 
  .instrument-links ul li {
@@ -1502,7 +1503,8 @@ main .fullwidth {
 
 .instrument-text h2{
   font-size: 5vw;
-  margin-top: -5vw;
+  padding-top: 2vh;
+
 }
 
 .instrument-text p{
@@ -1527,7 +1529,14 @@ main .fullwidth {
   align-items: center;
   justify-content: center;
   width: auto;
+  height: auto;
 }
+
+.instrument-text p{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .instrument-image, .instrument-text {
   width: 100%;
 }
@@ -1541,6 +1550,12 @@ main .fullwidth {
 }
 .instrument-links{
   margin-bottom:5vw;
+}
+.instrument-links ul{
+  margin-bottom:5vw;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .instrument-links ul li {
