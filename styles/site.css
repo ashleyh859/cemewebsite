@@ -1432,22 +1432,21 @@ main .fullwidth {
 }
 
 .card picture{
-  width:55vw;
-  height: 50vh;
+  width:35vw;
+  height: 40vh;
   align-items: center;
   justify-content: center;
 }
 
 .e-board h2{
   font-size: 7vw;
-  width:55vw;
+  width:85vw;
   justify-content: center;
   margin: auto;
 }
 
 .e-board h3{
   font-size: 4vw;
-  width:55vw;
   justify-content: center;
   margin: auto;
   margin-top: 3vh;
@@ -1457,7 +1456,6 @@ main .fullwidth {
 
 .e-board h4{
   font-size: 3.5vw;
-  width:55vw;
   justify-content: center;
   margin: auto;
   margin-top: 0vh;
@@ -1467,7 +1465,6 @@ main .fullwidth {
 
 .e-board h5{
   font-size: 3vw;
-  width:55vw;
   justify-content: center;
   margin: auto;
   margin-top: 1vh;
@@ -1476,8 +1473,8 @@ main .fullwidth {
 }
 
 .flex-cards {
-  display: block;
-  flex-direction: column;
+  flex-direction: row;
+  width:35vw;
 }
 
 
