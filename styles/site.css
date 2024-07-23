@@ -1432,7 +1432,7 @@ main .fullwidth {
 }
 
 .card picture{
-  width:35vw;
+  width:55vw;
   height: 30vh;
   align-items: center;
   justify-content: center;
@@ -1452,6 +1452,7 @@ main .fullwidth {
   margin-top: 3vh;
   margin-bottom: 0vh;
   padding-bottom: 1vh;
+  width:55vw;
 }
 
 .e-board h4{
@@ -1461,6 +1462,8 @@ main .fullwidth {
   margin-top: 0vh;
   margin-bottom: 1vh;
   padding-bottom: 0vh;
+  width:55vw;
+
 }
 
 .e-board h5{
@@ -1470,11 +1473,12 @@ main .fullwidth {
   margin-top: 1vh;
   margin-bottom: 0vh;
   padding-bottom: 0vh;
+  width:55vw;
+
 }
 
 .flex-cards {
   flex-direction: row;
-  width:35vw;
 }
 
 
