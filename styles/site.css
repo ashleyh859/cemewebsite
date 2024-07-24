@@ -575,13 +575,13 @@ main .image-flex-container {
   margin-right: 2.5vw;
   margin-bottom: 2vw;
   text-align: center;
-  width: 16vw;
+  width: 15vw;
 
 }
 
 .card picture {
   width: 16vw;
-  height: 40vh;
+  height: 60vh;
   display: block;
   margin: 0 auto;
 }
