@@ -27,7 +27,7 @@ main h2 {
   margin-bottom: 0px;
   padding-top: 0px;
   padding-bottom: 15px;
-  background-color: black;
+  background-color: #d8d1c3;
 }
 
 #navbar1 picture {
@@ -56,7 +56,7 @@ nav ul li a {
   padding-left: 15px;
   padding-right: 15px;
   border-radius: 10px;
-  color: #ffffff;
+  color: #333434;
   text-decoration: none;
   font-size: 1.1vw;
   margin: .25em;
@@ -1117,7 +1117,7 @@ ourevents-previews {
 
 
 footer {
-  background-color: black;
+  background-color: #d8d1c3;
   padding-top: 20px;
   padding-bottom: 20px;
   color: rgb(255, 255, 255);
@@ -1157,7 +1157,7 @@ footer {
 .contact-info h3 {
   margin-top: 0;
   font-size: 1.7vw;
-  color:white;
+  color: #333434;
 }
 
 .contact-info ul {
@@ -1178,7 +1178,7 @@ footer {
 }
 
 .contact-info ul li a {
-  color: white;
+  color: #333434;
   text-decoration: none;
 
 }
