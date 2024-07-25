@@ -561,24 +561,27 @@ main .image-flex-container {
 .e-board {
   text-align: center;
   margin-bottom: 80px;
-  width: 100vw;
 }
 
 .flex-cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 100vw;
+  width: 95vw;
 }
 
 .card {
-  margin: 0.5vw;
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
+  margin-bottom: 2vw;
   text-align: center;
+  width: 15vw;
+
 }
 
 .card picture {
   width: 16vw;
-  height: 40vh;
+  height: 60vh;
   display: block;
   margin: 0 auto;
 }
@@ -595,6 +598,9 @@ main .image-flex-container {
   margin-bottom: 0vh;
   padding-bottom: 1vh;
   font-size: 1.5vw;
+  width: 16vw;
+  justify-content: center;
+  align-items: center;
 }
 
 .card h4 {
@@ -603,8 +609,10 @@ main .image-flex-container {
   padding-bottom: 0vh;
   font-size: 1.2vw;
   color:#626262;
-  width: 20vw;
   font-weight: 1000;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .card h5 {
@@ -613,8 +621,9 @@ main .image-flex-container {
   padding-bottom: 0vh;
   font-size: 1vw;
   font-weight: 100;
-  width: 19vw;
   color:#626262;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -630,6 +639,7 @@ nav .instrument-links {
  .instrument-links ul {
   list-style: none;
   padding: 0;
+  width: 75vw;
 }
 
  .instrument-links ul li {
@@ -742,7 +752,7 @@ nav .instrument-links {
 
 .ourevents-text {
   flex: 2;
-  height: 40vh;
+  height: 30vh;
   padding-left:40px;
 }
 
@@ -771,8 +781,16 @@ nav .instrument-links {
   text-align: left;
 }
 
+.ourevents-text a:link{
+  color: #303030;
+}
+
+.ourevents-text a:visited{
+  color: #707070;
+}
+
 .ourevents-image {
-  flex-basis: 50%;
+  flex-basis: 60%;
   flex:1;
 }
 
@@ -780,16 +798,20 @@ nav .instrument-links {
   width: 100%;
   object-fit: cover;
   object-position: center center;
-  height: 40vh;
+  height: 30vh;
 }
 
-ourevents-previews {
-  flex: auto;
+.ourevents-previews {
+  display: inline-flex;
+  justify-content: space-between;
 }
 
 .ourevents-previews iframe{
   margin: 20px;
+  margin-left:0;
   margin-top: -2%;
+  flex: 30%;
+  max-width: fit-content;
 }
 
 .accordion {
@@ -799,6 +821,10 @@ ourevents-previews {
   margin-top:0px;
   padding-top:0px;
 }
+
+.accordion-title {
+  color: #303030;
+  }
 
 .accordion-item {
   background-color: #ffffff;
@@ -856,6 +882,7 @@ ourevents-previews {
 .icon {
   font-size: 38px;
   transition: all 0.2s ease;
+  color: #303030;
 }
 
 .accessible-hidden {
@@ -1031,7 +1058,7 @@ ourevents-previews {
   width: 100%;
   object-fit: cover;
   object-position: center center;
-  height: 40vh;
+  height: 30vh;
 }
 
 .events-gallery.ourevents-image .bottom-buttons {
@@ -1406,51 +1433,52 @@ main .fullwidth {
 
 .card picture{
   width:55vw;
-  height: 50vh;
+  height: 30vh;
   align-items: center;
   justify-content: center;
 }
 
 .e-board h2{
   font-size: 7vw;
-  width:55vw;
+  width:85vw;
   justify-content: center;
   margin: auto;
 }
 
 .e-board h3{
   font-size: 4vw;
-  width:55vw;
   justify-content: center;
   margin: auto;
   margin-top: 3vh;
   margin-bottom: 0vh;
   padding-bottom: 1vh;
+  width:55vw;
 }
 
 .e-board h4{
   font-size: 3.5vw;
-  width:55vw;
   justify-content: center;
   margin: auto;
   margin-top: 0vh;
   margin-bottom: 1vh;
   padding-bottom: 0vh;
+  width:55vw;
+
 }
 
 .e-board h5{
   font-size: 3vw;
-  width:55vw;
   justify-content: center;
   margin: auto;
   margin-top: 1vh;
   margin-bottom: 0vh;
   padding-bottom: 0vh;
+  width:55vw;
+
 }
 
 .flex-cards {
-  display: block;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 
@@ -1485,7 +1513,7 @@ main .fullwidth {
 
 .instrument-text h2{
   font-size: 5vw;
-  margin-top: -5vw;
+  padding-top: 2vh;
 }
 
 .instrument-text p{
@@ -1510,7 +1538,14 @@ main .fullwidth {
   align-items: center;
   justify-content: center;
   width: auto;
+  height: auto;
 }
+
+.instrument-text p{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .instrument-image, .instrument-text {
   width: 100%;
 }
@@ -1524,6 +1559,12 @@ main .fullwidth {
 }
 .instrument-links{
   margin-bottom:5vw;
+}
+.instrument-links ul{
+  margin-bottom:5vw;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .instrument-links ul li {
@@ -1544,7 +1585,7 @@ main .fullwidth {
 
 .ourevents-section {
   margin-top: 20px;
-  display: block;
+  display: flex;
   flex-direction: column;
 }
 
@@ -1564,6 +1605,19 @@ main .fullwidth {
   text-align: center;
   padding-left:0px;
 
+}
+
+.ourevents-previews {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.ourevents-previews iframe{
+  width: 40%;
+}
+
+.show-on-desktop {
+  display: none;
 }
 
 .ourevents-text h2{
