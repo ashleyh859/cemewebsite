@@ -452,7 +452,7 @@ main .image-flex-container {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 70vh;
+  height: 700px;
   overflow: hidden;
 }
 
@@ -472,7 +472,7 @@ main .image-flex-container {
 .gallery.fullscreen-image img {
   display: block;
   width: 100vw;
-  height: 70vh;
+  height:700px;
   object-fit: cover;
   object-position: center center;
 }
