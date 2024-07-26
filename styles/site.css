@@ -34,6 +34,16 @@ main h2 {
   text-align: center;
 }
 
+#navbar1 #ceme {
+  position: absolute;
+  top: 1.5vh;
+  left: 14vw;
+}
+
+#navbar1 #ceme p {
+  color: white;
+  padding: 0px;
+}
 
 nav ul {
   display: flex;
@@ -395,6 +405,11 @@ main .image-flex-container {
   font-size: 26px;
   color:white;
   text-decoration: none;
+}
+
+.hero-container a:hover {
+  color: #F2F2F2;
+  text-decoration: underline;
 }
 
 .hero-container{
