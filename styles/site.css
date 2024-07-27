@@ -389,8 +389,8 @@ main .image-flex-container {
   height: 4.3vh;
   position: absolute;
   top: 80%;
-  left: 35%;
-  transform: translateX(-35%);
+  left: 25%;
+  transform: translateX(-25%);
 }
 
 .hero-container .right-button {
@@ -400,8 +400,8 @@ main .image-flex-container {
   height: 4.3vh;
   position: absolute;
   top: 80%;
-  right: 35%;
-  transform: translateX(35%);
+  right: 25%;
+  transform: translateX(25%);
 }
 
 .hero-container a {
