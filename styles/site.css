@@ -800,7 +800,7 @@ nav .instrument-links {
   padding-left:40px;
 }
 
-.ourevents-text h2, h3 {
+.ourevents-text h2 {
   padding-top: 0px;
   font-size: 1.7vw;
   margin-bottom: 0px;
@@ -1661,7 +1661,7 @@ main .fullwidth {
   width: 40%;
 }
 
-.show-on-desktop {
+.ourevents-show-on-desktop {
   display: none;
 }
 
