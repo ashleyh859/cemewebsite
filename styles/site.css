@@ -1322,6 +1322,10 @@ main .fullwidth {
     overflow: hidden;
   }
 
+  .gallery.fullscreen-image img {
+    height: 75vh;
+  }
+
   main .flex-container {
     flex-direction: column;
     height: auto;
