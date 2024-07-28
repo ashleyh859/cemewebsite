@@ -1234,7 +1234,7 @@ footer h3 {
   top: 0;
   justify-content: space-between;
   width: 100%;
-  background-color: #303030;
+  background-color: #000000;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -1318,12 +1318,12 @@ main .fullwidth {
 
   .gallery.fullscreen-image {
     width: 100vw;
-    height: 60vh;
+    height: 32vh;
     overflow: hidden;
   }
 
   .gallery.fullscreen-image img {
-    height: 60vh;
+    height: 29vh;
   }
 
   main .flex-container {
