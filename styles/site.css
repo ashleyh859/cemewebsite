@@ -1318,12 +1318,12 @@ main .fullwidth {
 
   .gallery.fullscreen-image {
     width: 100vw;
-    height: 67vh;
+    height: 60vh;
     overflow: hidden;
   }
 
   .gallery.fullscreen-image img {
-    height: 67vh;
+    height: 60vh;
   }
 
   main .flex-container {
