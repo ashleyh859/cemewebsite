@@ -1185,8 +1185,12 @@ footer h3 {
   transform: translateY(0);
 }
 
-
-
+/* Hidden on desktop view*/
+@media (min-width: 851px) {
+  .ourevents-hide-on-desktop{
+    display: none;
+  }
+}
 
 @media (prefers-reduced-motion: reduce) {
   .icon {
@@ -1308,6 +1312,8 @@ main{
 
 main h2{
   font-size: 7vw;
+  padding-top:3vh;
+  padding-bottom:3vh;
 }
 
 main .fullwidth {
@@ -1320,12 +1326,13 @@ main .fullwidth {
 
   .gallery.fullscreen-image {
     width: 100vw;
-    height: 32vh;
+    height: 30vh;
     overflow: hidden;
+    padding-top: 15px;
   }
 
   .gallery.fullscreen-image img {
-    height: 29vh;
+    height: 30vh;
   }
 
   main .flex-container {
@@ -1379,6 +1386,14 @@ main .fullwidth {
 
 .hero-container .hero-image{
   margin-bottom: 80px;
+}
+
+.hero-container .left-button{
+  transform: translateX(-35%);
+}
+
+.hero-container .right-button{
+  transform: translateX(35%);
 }
 
 .card {
