@@ -1711,13 +1711,20 @@ main .fullwidth {
   text-align: center;
 }
 
-.contact-info ul li {
+.contact-info ul{
   display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact-info ul li {
+  /*display: flex;*/
   margin-bottom: 15px;
   font-size: 4vw;
   height: auto;
   width: auto;
   text-align: center;
+  margin-right:0;
 }
 
 .about-us h3,
