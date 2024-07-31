@@ -1368,9 +1368,12 @@ main .fullwidth {
 
 .hero-container .image-text {
   position: absolute;
-  top: 45%;
-  left: 50%;
-  text-align: center;
+  top: 42%;
+  /*left: 50%;
+  text-align: center;*/
+  left: 30%;
+  text-align: left;
+  width: 40vw;
   color: white;
   padding: 0px;
 }
@@ -1388,6 +1391,11 @@ main .fullwidth {
 
 .hero-container .hero-image{
   margin-bottom: 80px;
+}
+
+.hero-container .hero-image img {
+  /*object-position: 80% center;*/
+  object-position: 45% center;
 }
 
 .hero-container .left-button{
