@@ -1555,7 +1555,7 @@ main .fullwidth {
 }
 
 .ourevents-main{
-  margin-bottom: 20vh;
+  margin-bottom: 0vh;
 }
 
 .ourevents-section {
@@ -1600,10 +1600,6 @@ main .fullwidth {
 }
 .ourevents-text p{
   font-size: 3.5vw;
-}
-
-.ourevents-section{
-  padding-bottom:10vw;
 }
 
 .accordion-item .accordion-header .accordion-title{
