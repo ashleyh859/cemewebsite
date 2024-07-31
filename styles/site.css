@@ -390,7 +390,8 @@ main .image-flex-container {
   position: absolute;
   top: 80%;
   left: 25%;
-  transform: translateX(-25%);
+  transform: translateX(65%);
+  align-content: center;
 }
 
 .hero-container .right-button {
@@ -401,7 +402,8 @@ main .image-flex-container {
   position: absolute;
   top: 80%;
   right: 25%;
-  transform: translateX(25%);
+  transform: translateX(-65%);
+  align-content: center;
 }
 
 .hero-container a {
