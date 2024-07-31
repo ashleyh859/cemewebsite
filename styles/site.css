@@ -1187,7 +1187,7 @@ footer h3 {
 
 /* Hidden on desktop view*/
 @media (min-width: 851px) {
-  .ourevents-hide-on-desktop{
+  .hide-on-desktop{
     display: none;
   }
 }
@@ -1591,7 +1591,7 @@ main .fullwidth {
   width: 40%;
 }
 
-.ourevents-show-on-desktop {
+.show-on-desktop {
   display: none;
 }
 
