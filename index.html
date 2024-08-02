@@ -52,7 +52,7 @@
 
     <div id="navbar2" class="accessible-hidden">
       <picture>
-        <img src="images/ceme_logo_white.png" alt="">
+        <img src="images/ceme_logo_cropped.png" alt="">
         <!-- Source: Client provided content -->
       </picture>
 
@@ -72,7 +72,7 @@
               <a href="ourevents.html" aria-label="navigate to ourevents">Events 活动</a>
             </li>
             <li>
-              <a href="ourmembers.html" aria-label="navigate to ourmembers">MEMBERS 成员</a>
+              <a href="ourmembers.html" aria-label="navigate to ourmembers">Members 成员</a>
             </li>
             <li>
               <a href="joinus.html" aria-label="navigate to joinus">Join Us 加入我们</a>
@@ -107,13 +107,13 @@
             <! Source: Client provided content -->
           <!-- </picture> -->
           <!-- <picture id="image5" class="accessible-hidden">
-            <img src="images/home_teampic6.jpg" alt="Image of the team after an ensemble"> --> -->
+            <img src="images/home_teampic6.jpg" alt="Image of the team after an ensemble"> -->
             <!-- Source: Client provided content -->
           <!-- </picture>
           <picture id="image6" class="accessible-hidden">
             <img src="images/joinus_new3.jpg" alt="Image of the team after an ensemble"> -->
             <!-- Source: Client provided content -->
-          <!-- </picture> --> -->
+          <!-- </picture> -->
           <!-- <div class="overlay-buttons">
             <button id="prev-button" aria-label="Previous Picture"></button>
             <button id="next-button" aria-label="Next Picture"></button>
@@ -151,8 +151,13 @@
     <div class="hero-container scroll-hidden">
 
         <div class="hero-image">
-          <picture>
+          <!--desktop image-->
+          <picture class="show-on-desktop">
             <img id="originalA" src="images/ourevents_asianmusicnight.jpg" alt="">
+          </picture>
+          <!--mobile image-->
+          <picture class="hide-on-desktop">
+            <img id="originalA" src="images/1.JPG" alt="">
           </picture>
           <a href="joinus.html" aria-label="navigate to joinus">
           <div class="image-text">
