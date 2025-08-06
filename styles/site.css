@@ -1128,6 +1128,11 @@ footer {
   margin-bottom: 60px;
 }
 
+.disclaimer a {
+  color: #C7CCCF;
+  text-decoration: underline;
+}
+
 .about-us {
   flex: 1;
 }
