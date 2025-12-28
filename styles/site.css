@@ -146,8 +146,16 @@ margin: 0;
 /* Our Concerts Section */
 .concerts-section {
   text-align: center;
+  /* make the concerts section truly centered in the page viewport */
+  /* cancel `main`'s left/right margins so this block is centered in the viewport */
+  width: calc(100% + 66px);
+  margin: 0 -33px 60px;
+  box-sizing: border-box;
+}
+.concerts-section {
+  text-align: center;
   width: 90%;
-  margin-bottom: 60px;
+  margin: 0 auto 60px auto; /* Added "auto" for left/right margins */
 }
 
 .concerts-section h3 {
@@ -835,6 +843,30 @@ nav .instrument-links {
   margin-top: -40px;
 }
 
+.join-button-container {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.join-button {
+  display: inline-block;
+  padding: 15px 40px;
+  background-color: #862727; /* Changed to match your brand color */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  font-size: 1.7vw;
+}
+
+.join-button:hover {
+  background-color: #a63232;
+}
+
 .ourevents-main {
   margin-bottom: 10vh;
 }
@@ -1430,6 +1462,11 @@ main .fullwidth {
     margin-left: 0px;
     font-size: 4vw;
   }
+
+  .concerts-section h3 {
+  color: #862727;
+    font-size: 7vw;
+}
 
 .hero-container .image-text {
   position: absolute;
