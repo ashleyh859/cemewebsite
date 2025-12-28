@@ -187,7 +187,7 @@ margin: 0;
 .join-button {
   display: inline-block;
   padding: 15px 40px;
-  background-color: #333;
+  background-color: #862727;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -736,6 +736,40 @@ main .image-flex-container {
   color:#626262;
   justify-content: center;
   align-items: center;
+}
+
+/* Mobile: keep concert previews as a single centered row */
+@media (max-width: 600px) {
+  .concerts-section {
+    width: 100%;
+    margin: 0 0 40px 0;
+    padding: 0 12px;
+    box-sizing: border-box;
+  }
+
+  .concerts-section h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .ourevents-previews {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 12px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 6px 0;
+  }
+
+  .ourevents-previews iframe {
+    flex: 0 0 auto;
+    width: 260px;
+    aspect-ratio: 16/9;
+    height: auto;
+    margin: 0;
+  }
 }
 
 
@@ -1447,12 +1481,22 @@ main .fullwidth {
     width: auto;
     text-align: center;
   }
-
-
   .content h2{
     font-size: 7vw;
   }
 
+  .join-button {
+  display: inline-block;
+  padding: 15px 40px;
+  background-color: #862727;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+    font-size: 4vw;
+
+}
   .flex-container .left {
     margin-right: 0px;
     font-size: 4vw;
