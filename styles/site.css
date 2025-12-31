@@ -186,7 +186,7 @@ margin: 0;
 
 .join-button {
   display: inline-block;
-  padding: 15px 40px;
+  padding: 10px 30px;
   background-color: #862727;
   color: white;
   text-decoration: none;
@@ -194,11 +194,41 @@ margin: 0;
   font-weight: bold;
   transition: background-color 0.3s;
     font-size: 1.7vw;
-
 }
 
 .join-button:hover {
   background-color: #555;
+}
+
+.join-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+
+}
+
+.join-button-container {
+  text-align: center;
+  margin: 2px;
+    gap: 0px;
+
+
+}
+
+@media (max-width: 800px) {
+  .join-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .join-button {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 4vw;
+    padding: 12px 20px;
+  }
 }
 
 main .fullwidth {
