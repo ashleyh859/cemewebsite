@@ -143,11 +143,8 @@ margin: 0;
   margin-left: 45px;
 }
 
-/* Our Concerts Section */
 .concerts-section {
   text-align: center;
-  /* make the concerts section truly centered in the page viewport */
-  /* cancel `main`'s left/right margins so this block is centered in the viewport */
   width: calc(100% + 66px);
   margin: 0 -33px 60px;
   box-sizing: border-box;
@@ -155,7 +152,7 @@ margin: 0;
 .concerts-section {
   text-align: center;
   width: 90%;
-  margin: 0 auto 60px auto; /* Added "auto" for left/right margins */
+  margin: 0 auto 60px auto;
 }
 
 .concerts-section h3 {
@@ -167,18 +164,28 @@ margin: 0;
 
 .ourevents-previews {
   display: flex;
-    justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
+  justify-content: space-between;
   margin-bottom: 60px;
-    width: 100%;
+  width: 100%;
+  box-sizing: border-box;
 }
-.ourevents-previews iframe {
-  width: 560px;
+
+.ourevents-previews > iframe {
+  flex: 1 1 calc(50% - 10px);
+  max-width: calc(50% - 10px);
+  min-width: 220px;
   aspect-ratio: 16/9;
-  max-width: 100%;
   height: auto;
-  margin: 8px;
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  .ourevents-previews > iframe {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
 }
 .join-button-container {
   text-align: center;
@@ -627,30 +634,21 @@ main .image-flex-container {
 
 .gallery.fullscreen-image .bottom-buttons button {
   width: 10px;
-  /* Adjust as needed */
   height: 10px;
-  /* Adjust as needed */
   border: 1px solid #ffffff;
-  /* White border */
   border-radius: 50%;
-  /* Make it circular */
   background-color: transparent;
-  /* Transparent background */
   cursor: pointer;
   padding: 0;
-  /* Remove padding */
   margin: 0 8px;
-  /* Remove margin */
 }
 
 .gallery.fullscreen-image .bottom-buttons button.active {
   background-color: #ffffff;
-  /* White background when active */
 }
 
 .gallery.fullscreen-image .bottom-buttons button:hover {
   background-color: #f0f0f0;
-  /* Light gray background on hover */
 }
 
 .gallery.fullscreen-image .overlay-buttons {
@@ -686,18 +684,14 @@ main .image-flex-container {
 
 .gallery.fullscreen-image #next-button {
   margin-right: 20px;
-  /* Adjust as needed */
 }
 
-/* Style the arrow */
 .gallery.fullscreen-image .overlay-buttons #prev-button::before {
   content: "\2039";
-  /* Unicode for left-pointing arrow */
 }
 
 .gallery.fullscreen-image .overlay-buttons #next-button::before {
   content: "\203A";
-  /* Unicode for right-pointing arrow */
 }
 
 .e-board {
@@ -768,7 +762,6 @@ main .image-flex-container {
   align-items: center;
 }
 
-/* Mobile: keep concert previews as a single centered row */
 @media (max-width: 600px) {
   .concerts-section {
     width: 100%;
@@ -918,7 +911,7 @@ nav .instrument-links {
 .join-button {
   display: inline-block;
   padding: 15px 40px;
-  background-color: #862727; /* Changed to match your brand color */
+  background-color: #862727;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -1238,18 +1231,14 @@ nav .instrument-links {
 
 .events-gallery.ourevents-image #next-button {
   margin-right: 20px;
-  /* Adjust as needed */
 }
 
-/* Style the arrow */
 .events-gallery.ourevents-image .overlay-buttons #prev-button::before {
   content: "\2039";
-  /* Unicode for left-pointing arrow */
 }
 
 .events-gallery.ourevents-image .overlay-buttons #next-button::before {
   content: "\203A";
-  /* Unicode for right-pointing arrow */
 }
 
 
@@ -1465,7 +1454,6 @@ main{
   font-size: 24px;
   color:white;
   border:transparent;
-  /*border: 3px solid rgba(86, 103, 133, 0.9);*/
   background-color: transparent;
 }
 
